@@ -4,7 +4,11 @@ const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
 
-mongoose.connect(process.env.DATABASE_URL)
+
+mongoose.connect('mongodb+srv://test2:BElLVc5JkU1uONKl@media-match.scccma6.mongodb.net/')
+
+
+
 const db = mongoose.connection
 
 db.on('error', (error) => console.error(error))

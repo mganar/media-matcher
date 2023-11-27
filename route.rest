@@ -1,0 +1,17 @@
+GET http://localhost:3000/media
+###
+
+GET http://localhost:3000/media/6564f353a1485e3ac9ab5ead
+###
+
+POST http://localhost:3000/media
+Content-Type: application/json
+
+{
+    "id": "123",
+    "title": "Hello",
+    "genre": "Horror",
+    "description": "Bad TV Show",
+    "background": "https://c8.alamy.com/comp/2AKEC06/call-me-funny-ice-cube-mascot-picture-style-2AKEC06.jpg",
+    "avg_vote": 10
+}
