@@ -25,72 +25,39 @@
     <div id="movieCardsContainer"></div>
 
     <script>
-        // Function to get URL parameters
-        function getURLParameters() {
-            var params = {};
-            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
-                params[key] = value;
-            });
-            return params;
+        // Function to fetch and display liked movies
+        function displayLikedMovies() {
+            // Retrieve liked movies from local storage
+            var likedMoviesData = JSON.parse(localStorage.getItem('likedMovies'));
+    
+            if (likedMoviesData && likedMoviesData.length > 0) {
+                var movieCardsContainer = document.getElementById("movieCardsContainer");
+                likedMoviesData.forEach(function (movie) {
+                    var movieCard = document.createElement("div");
+                    movieCard.classList.add("movie-card");
+    
+                    var movieTitle = document.createElement("h2");
+                    movieTitle.textContent = movie.title;
+    
+                    var moviePoster = document.createElement("img");
+                    moviePoster.classList.add("movie-poster");
+                    moviePoster.src = movie.posterUrl; // Change to the correct property
+    
+                    var movieDescription = document.createElement("p");
+                    movieDescription.textContent = movie.description;
+    
+                    movieCard.appendChild(movieTitle);
+                    movieCard.appendChild(moviePoster);
+                    movieCard.appendChild(movieDescription);
+    
+                    movieCardsContainer.appendChild(movieCard);
+                });
+            }
         }
-
-        // Function to fetch and display movie cards based on category and subcategory
-        function displayMovieCards() {
-            var params = getURLParameters();
-            var category = params.category;
-            var subcategory = params.subcategory;
-
-            // Replace this with actual API call or data source
-            var moviesData = [
-                {
-                    title: "Movie 1",
-                    poster: "movie1.jpg",
-                    description: "Description of Movie 1."
-                },
-                {
-                    title: "Movie 2",
-                    poster: "movie2.jpg",
-                    description: "Description of Movie 2."
-                },
-                {
-                    title: "Movie 3",
-                    poster: "movie3.jpg",
-                    description: "Description of Movie 3."
-                }
-                // Add more movie data here
-            ];
-
-            // Filter movies based on category and subcategory
-            var filteredMovies = moviesData.filter(function(movie) {
-                return movie.category === category && movie.subcategory === subcategory;
-            });
-
-            // Display movie cards
-            var movieCardsContainer = document.getElementById("movieCardsContainer");
-            filteredMovies.forEach(function(movie) {
-                var movieCard = document.createElement("div");
-                movieCard.classList.add("movie-card");
-
-                var movieTitle = document.createElement("h2");
-                movieTitle.textContent = movie.title;
-
-                var moviePoster = document.createElement("img");
-                moviePoster.classList.add("movie-poster");
-                moviePoster.src = movie.poster;
-
-                var movieDescription = document.createElement("p");
-                movieDescription.textContent = movie.description;
-
-                movieCard.appendChild(movieTitle);
-                movieCard.appendChild(moviePoster);
-                movieCard.appendChild(movieDescription);
-
-                movieCardsContainer.appendChild(movieCard);
-            });
-        }
-
-        // Call the function to display movie cards
-        displayMovieCards();
+    
+        // Call the function to display liked movies
+        displayLikedMovies();
     </script>
+    
 </body>
 </html>
