@@ -8,14 +8,20 @@
 <body>
     <div id="instructions">Review each movie/TV show <span id="swipeCounter">(0/10)</span></div>
     <div class="movie-card">
-        <img src="" alt="Movie/TV Show Poster">
-        <h2>Title</h2>
-        <p>Description</p>
-    </div>
-    <div id="buttons">
-        <button id="dislikeButton">Dislike</button>
-        <button id="neutralButton">Neutral</button>
-        <button id="likeButton">Like</button>
+        <div id="movie-info">
+            <!-- Movie information will be displayed here -->
+            <img src="" alt="Movie/TV Show Poster">
+            <h2>Title</h2>
+            <p>Release Date: <span id="releaseDate"></span></p>
+            <p>Genres: <span id="genres"></span></p>
+            <p>Overview: <span id="overview"></span></p>
+            <a href="" target="_blank" id="trailerLink">Watch Trailer</a>
+        </div>
+        <div id="buttons">
+            <button id="dislikeButton">Dislike</button>
+            <button id="neutralButton">Neutral</button>
+            <button id="likeButton">Like</button>
+        </div>
     </div>
 
     <!-- Include your JavaScript file here -->
