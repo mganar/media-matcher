@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Movie Cards</title>
+    <title>Recommended Movies</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
         }
+        .movie-card-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+        }
         .movie-card {
             border: 1px solid #ccc;
             padding: 20px;
-            margin: 10px;
-            width: 300px;
-            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
         }
         .movie-poster {
             max-width: 100%;
@@ -21,18 +25,27 @@
     </style>
 </head>
 <body>
-    <h1>Movie Cards</h1>
-    <div id="movieCardsContainer"></div>
+    <h1>Recommended Movies</h1>
+    <div class="movie-card-container" id="movieCardsContainer"></div>
 
     <script>
-        // Function to fetch and display liked movies
-        function displayLikedMovies() {
-            // Retrieve liked movies from local storage
-            var likedMoviesData = JSON.parse(localStorage.getItem('likedMovies'));
+        // Function to fetch and display recommended movies based on preferences
+        function displayRecommendedMovies() {
+            // Retrieve preference scores from local storage
+            var preferenceScores = JSON.parse(localStorage.getItem('preferenceScores'));
+            
+            // Retrieve movies from local storage
+            var moviesData = JSON.parse(localStorage.getItem('movies'));
     
-            if (likedMoviesData && likedMoviesData.length > 0) {
+            if (preferenceScores && moviesData) {
                 var movieCardsContainer = document.getElementById("movieCardsContainer");
-                likedMoviesData.forEach(function (movie) {
+                
+                // Sort movies by preference scores in descending order
+                moviesData.sort(function (a, b) {
+                    return (preferenceScores[b.title] || 0) - (preferenceScores[a.title] || 0);
+                });
+    
+                moviesData.forEach(function (movie) {
                     var movieCard = document.createElement("div");
                     movieCard.classList.add("movie-card");
     
@@ -41,22 +54,32 @@
     
                     var moviePoster = document.createElement("img");
                     moviePoster.classList.add("movie-poster");
-                    moviePoster.src = movie.posterUrl; // Change to the correct property
+                    moviePoster.src = movie.posterUrl;
     
-                    var movieDescription = document.createElement("p");
-                    movieDescription.textContent = movie.description;
+                    var releaseDate = document.createElement("p");
+                    releaseDate.textContent = "Release Date: " + movie.release_date;
     
+                    var genres = document.createElement("p");
+                    genres.textContent = "Genres: " + (movie.genres ? movie.genres.join(', ') : "N/A");
+    
+                    var overview = document.createElement("p");
+                    overview.textContent = "Overview: " + movie.description;
+
+                 
                     movieCard.appendChild(movieTitle);
                     movieCard.appendChild(moviePoster);
-                    movieCard.appendChild(movieDescription);
+                    movieCard.appendChild(releaseDate);
+                    movieCard.appendChild(genres);
+                    movieCard.appendChild(overview);
+                
     
                     movieCardsContainer.appendChild(movieCard);
                 });
             }
         }
     
-        // Call the function to display liked movies
-        displayLikedMovies();
+        // Call the function to display recommended movies
+        displayRecommendedMovies();
     </script>
     
 </body>
