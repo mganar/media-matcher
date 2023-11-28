@@ -18,6 +18,9 @@ app.use(express.json())
 const mediaRouter = require('./routes/media')
 app.use('/media', mediaRouter)
 
+const userRouter = require('./routes/user')
+app.use('/user', userRouter)
+
 
 
 app.listen(3000, () => console.log('Server Started'))
