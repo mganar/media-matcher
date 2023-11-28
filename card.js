@@ -75,7 +75,30 @@
                 // Add more properties as needed
             }));
     
-            // Now that 'movies' contains actual API data, you can display the first movie
+            // Retrieve category and subcategory from query parameters
+            const params = new URLSearchParams(window.location.search);
+            const category = params.get('category');
+            const subcategory = params.get('subcategory');
+    
+            // Filter movies based on category and subcategory
+            if (category && subcategory) {
+                movies = movies.filter((movie) => {
+                    if (category === 'Genre') {
+                        return movie.genres && movie.genres.includes(subcategory);
+                    } else if (category === 'Decade Released') {
+                        // Assuming the subcategory is a decade (e.g., '1970s')
+                        return movie.release_date && movie.release_date.startsWith(subcategory);
+                    } else if (category === 'Language') {
+                        // Assuming the subcategory matches the language (e.g., 'English')
+                        return movie.language === subcategory;
+                    } else if (category === 'Award-Winning') {
+                        // Add logic to filter based on awards if available
+                        return false; // Example: return movie.awards === subcategory;
+                    }
+                });
+            }
+    
+            // Now that 'movies' contains filtered data, you can display the first movie
             showMovieCard(movies[currentIndex]);
         } catch (error) {
             console.error(error);
@@ -95,9 +118,11 @@
         updatePreferenceScores(true); // Update preference scores for liked movie attributes
         swipeCount++;
         updateSwipeCounter();
+        // Call the function to save the movie to the database
+        saveMovieToDatabase(movies[currentIndex]);
         loadNextMovie();
-    });
-    
+      });
+      
     document.getElementById('dislikeButton').addEventListener('click', () => {
         console.log('dislike');
         updatePreferenceScores(false); // Update preference scores for disliked movie attributes
@@ -160,7 +185,7 @@
             // Handle when all cards have been reviewed
         }
     }
-    
+
     
     // Initialize the UI with the first movie card
     showMovieCard(movies[currentIndex]);

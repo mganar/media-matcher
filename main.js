@@ -53,7 +53,7 @@ function displayMovieInfo(movies) {
     // Display subcategories based on the category
     var subcategories = [];
     if (category === "Genre") {
-        subcategories = ["Action", "Comedy", "Drama", "Sci-Fi", "Horror", "Animated", "Random"];
+        subcategories = ["Action & Adventure", "Comedy", "Drama", "Sci-Fi & Fantasy", "Horror", "Animation", "Random"];
     } else if (category === "Decade Released") {
         subcategories = ["1970s","1980s", "1990s", "2000s", "2010s", "2020s", "Random"];
     } else if (category === "Language") {
@@ -90,9 +90,11 @@ function displayMovieInfo(movies) {
 
 // Function to navigate to the card.html page with parameters
 function navigateToCardPage(category, subcategory) {
-    var url = "card.html?category=" + encodeURIComponent(category) + "&subcategory=" + encodeURIComponent(subcategory);
+    var url = `card.html?category=${encodeURIComponent(category)}&subcategory=${encodeURIComponent(subcategory)}`;
     window.location.href = url;
 }
+
+
 
 // Function to handle the back button click
 document.getElementById("backButton").addEventListener("click", function () {
