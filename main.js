@@ -12,14 +12,8 @@
     // Display subcategories based on the category
     var subcategories = [];
     if (category === "Genre") {
-        subcategories = ["Action & Adventure", "Comedy", "Drama", "Sci-Fi & Fantasy", "Horror", "Animation", "Random"];
-    } else if (category === "Decade Released") {
-        subcategories = ["2023","1980s", "1990s", "2000s", "2010s", "2020s", "Random"];
-    } else if (category === "Language") {
-        subcategories = ["English", "Spanish", "French", "German", "Mandarin", "Japanese", "Random"];
-    } else if (category === "Award-Winning") {
-        subcategories = ["Oscar Winners", "Emmy Winners", "Random"];
-    }
+        subcategories = ["Action & Adventure", "Comedy", "Drama", "Sci-Fi & Fantasy", "Horror", "Animation"];
+    } 
     
     // Generate and display subcategory buttons
     var subcategoriesHtml = "";
@@ -39,12 +33,7 @@
         });
     });
 
-    // Add event listener to the "Random" subcategory button
-    var randomSubcategoryButton = document.querySelector('#subcategories button:contains("Random")');
-    randomSubcategoryButton.addEventListener('click', function() {
-        var randomSubcategory = subcategories[Math.floor(Math.random() * subcategories.length)];
-        navigateToCardPage(category, randomSubcategory);
-    });
+
 }
 
 // Function to navigate to the card.html page with parameters
@@ -79,15 +68,3 @@ document.getElementById("languageButton").addEventListener("click", function () 
     handleButtonClick("Language");
 });
 
-document.getElementById("awardButton").addEventListener("click", function () {
-    handleButtonClick("Award-Winning");
-});
-
-document.getElementById("randomButton").addEventListener("click", function () {
-    // Define an array of categories
-    var categories = ["Genre", "Decade Released", "Language", "Award-Winning"];
-    
-    // Pick a random category from the array and handle the click
-    var randomCategory = categories[Math.floor(Math.random() * categories.length)];
-    handleButtonClick(randomCategory);
-});
