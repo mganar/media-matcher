@@ -25,61 +25,49 @@
     </style>
 </head>
 <body>
-    <h1>Recommended Movies</h1>
+    <h1>Liked Movies</h1>
     <div class="movie-card-container" id="movieCardsContainer"></div>
 
     <script>
-        // Function to fetch and display recommended movies based on preferences
-        function displayRecommendedMovies() {
-            // Retrieve preference scores from local storage
-            var preferenceScores = JSON.parse(localStorage.getItem('preferenceScores'));
-            
-            // Retrieve movies from local storage
-            var moviesData = JSON.parse(localStorage.getItem('movies'));
-    
-            if (preferenceScores && moviesData) {
-                var movieCardsContainer = document.getElementById("movieCardsContainer");
-                
-                // Sort movies by preference scores in descending order
-                moviesData.sort(function (a, b) {
-                    return (preferenceScores[b.title] || 0) - (preferenceScores[a.title] || 0);
-                });
-    
-                moviesData.forEach(function (movie) {
-                    var movieCard = document.createElement("div");
-                    movieCard.classList.add("movie-card");
-    
-                    var movieTitle = document.createElement("h2");
-                    movieTitle.textContent = movie.title;
-    
-                    var moviePoster = document.createElement("img");
-                    moviePoster.classList.add("movie-poster");
-                    moviePoster.src = movie.posterUrl;
-    
-                    var releaseDate = document.createElement("p");
-                    releaseDate.textContent = "Release Date: " + movie.release_date;
-    
-                    var genres = document.createElement("p");
-                    genres.textContent = "Genres: " + (movie.genres ? movie.genres.join(', ') : "N/A");
-    
-                    var overview = document.createElement("p");
-                    overview.textContent = "Overview: " + movie.description;
+       function displayLikedMovies() {
+    // Retrieve liked movies from local storage
+    var likedMovies = JSON.parse(localStorage.getItem('likedMovies'));
 
-                 
-                    movieCard.appendChild(movieTitle);
-                    movieCard.appendChild(moviePoster);
-                    movieCard.appendChild(releaseDate);
-                    movieCard.appendChild(genres);
-                    movieCard.appendChild(overview);
-                
-    
-                    movieCardsContainer.appendChild(movieCard);
-                });
-            }
-        }
+    if (likedMovies) {
+        var movieCardsContainer = document.getElementById("movieCardsContainer");
+        likedMovies.forEach(function (movie) {
+            var movieCard = document.createElement("div");
+            movieCard.classList.add("movie-card");
+
+            var movieTitle = document.createElement("h2");
+            movieTitle.textContent = movie.title;
+
+            var moviePoster = document.createElement("img");
+            moviePoster.classList.add("movie-poster");
+            moviePoster.src = movie.posterUrl;
+
+            var releaseDate = document.createElement("p");
+            releaseDate.textContent = "Release Date: " + movie.release_date;
+
+            var genres = document.createElement("p");
+            genres.textContent = "Genres: " + (movie.genres ? movie.genres.join(', ') : "N/A");
+
+            var overview = document.createElement("p");
+            overview.textContent = "Overview: " + movie.description;
+
+            movieCard.appendChild(movieTitle);
+            movieCard.appendChild(moviePoster);
+            movieCard.appendChild(releaseDate);
+            movieCard.appendChild(genres);
+            movieCard.appendChild(overview);
+
+            movieCardsContainer.appendChild(movieCard);
+        });
+    }
+}
     
         // Call the function to display recommended movies
-        displayRecommendedMovies();
+        displayLikedMovies();
     </script>
     
 </body>

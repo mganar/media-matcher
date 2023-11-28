@@ -1,8 +1,9 @@
     // Define an empty array to store movie data
     let movies = [];
+    let likedMovies = [];
     let currentIndex = 1; // Start at 1
     let swipeCount = 0;
-    let preferenceScores = {};
+
 
     function showMovieCard(movie) {
         console.log(movie); // Log the movie object for debugging
@@ -115,69 +116,27 @@
     
     document.getElementById('likeButton').addEventListener('click', () => {
         console.log('like');
-        updatePreferenceScores(true); // Update preference scores for liked movie attributes
-        swipeCount++;
-        updateSwipeCounter();
-        // Call the function to save the movie to the database
-        saveMovieToDatabase(movies[currentIndex]);
-        loadNextMovie();
-      });
-      
-    document.getElementById('dislikeButton').addEventListener('click', () => {
-        console.log('dislike');
-        updatePreferenceScores(false); // Update preference scores for disliked movie attributes
+        const currentMovie = movies[currentIndex];
+        likedMovies.push(currentMovie);
         swipeCount++;
         updateSwipeCounter();
         loadNextMovie();
     });
     
-    document.getElementById('neutralButton').addEventListener('click', () => {
-        console.log('neutral');
+    document.getElementById('dislikeButton').addEventListener('click', () => {
+        console.log('dislike');
         swipeCount++;
         updateSwipeCounter();
         loadNextMovie();
-    }); 
+    });
     
-    function updatePreferenceScores(positivePreference) {
-        const currentMovie = movies[currentIndex];
-    
-        if (positivePreference) {
-            // Increase preference scores for relevant attributes
-            // For example, increase preference scores for genres, release date, etc.
-            if (currentMovie.genres) {
-                currentMovie.genres.forEach((genre) => {
-                    preferenceScores[genre] = (preferenceScores[genre] || 0) + 1;
-                });
-            }
-            if (currentMovie.release_date) {
-                const year = new Date(currentMovie.release_date).getFullYear();
-                preferenceScores[year] = (preferenceScores[year] || 0) + 1;
-            }
-            // Add more attribute scoring logic as needed
-        } else {
-            // Decrease preference scores for relevant attributes
-            // For example, decrease preference scores for genres, release date, etc.
-            if (currentMovie.genres) {
-                currentMovie.genres.forEach((genre) => {
-                    preferenceScores[genre] = (preferenceScores[genre] || 0) - 1;
-                });
-            }
-            if (currentMovie.release_date) {
-                const year = new Date(currentMovie.release_date).getFullYear();
-                preferenceScores[year] = (preferenceScores[year] || 0) - 1;
-            }
-            // Add more attribute scoring logic as needed
-        }
-    }
-    
+
     function loadNextMovie() {
         currentIndex++;
     
         if (swipeCount === 10) {
-            // Store preference scores in local storage if needed
-            localStorage.setItem('preferenceScores', JSON.stringify(preferenceScores));
-            // Store movies in local storage
-            localStorage.setItem('movies', JSON.stringify(movies));
+            // Store liked movies in local storage
+            localStorage.setItem('likedMovies', JSON.stringify(likedMovies));
             window.location.href = 'movie.html';
         } else if (currentIndex < movies.length) {
             showMovieCard(movies[currentIndex]);
@@ -185,7 +144,6 @@
             // Handle when all cards have been reviewed
         }
     }
-
     
     // Initialize the UI with the first movie card
     showMovieCard(movies[currentIndex]);
