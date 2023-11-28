@@ -4,7 +4,14 @@
     let currentIndex = 1; // Start at 1
     let swipeCount = 0;
 
-
+// Shuffle function to randomize the order of an array
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  }
+  
     function showMovieCard(movie) {
         console.log(movie); // Log the movie object for debugging
     
@@ -47,71 +54,90 @@
     }
 
 
-
     async function fetchData() {
         const url = 'https://movies-api14.p.rapidapi.com/home';
         const options = {
-            method: 'GET',
-            headers: {
-                'X-RapidAPI-Key': '24c81b0a7amsh11e5a0d115cd66fp1247adjsn0c290c301f11',
-                'X-RapidAPI-Host': 'movies-api14.p.rapidapi.com'
-            }
+          method: 'GET',
+          headers: {
+            'X-RapidAPI-Key': '24c81b0a7amsh11e5a0d115cd66fp1247adjsn0c290c301f11',
+            'X-RapidAPI-Host': 'movies-api14.p.rapidapi.com',
+          },
         };
-    
+      
         try {
-            const response = await fetch(url, options);
-            if (!response.ok) {
-                throw new Error(`Failed to fetch data: ${response.status} - ${response.statusText}`);
+          const response = await fetch(url, options);
+          if (!response.ok) {
+            throw new Error(`Failed to fetch data: ${response.status} - ${response.statusText}`);
+          }
+          const data = await response.json(); // Parse response as JSON
+      
+          // Assuming the API response contains an array of category objects
+          const categories = data.map((category) => ({
+            title: category.title,
+            movies: category.movies.map((movie) => ({
+              title: movie.title,
+              description: movie.overview,
+              posterUrl: movie.poster_path,
+              release_date: movie.release_date, // Include release date
+              genres: movie.genres, // Include genres
+              youtube_trailer: movie.trailer_url, // Include trailer URL
+              // Add more properties as needed
+            })),
+          }));
+      
+  // Flatten the movies from all categories into a single array
+  categories.forEach((category) => {
+    movies.push(...category.movies);
+  });
+
+  // Shuffle the movies array to randomize the order
+  shuffleArray(movies);
+
+          // Retrieve category and subcategory from query parameters
+          const params = new URLSearchParams(window.location.search);
+          const category = params.get('category');
+          const subcategory = params.get('subcategory');
+      
+          // Filter movies based on category and subcategory
+          if (category && subcategory) {
+            movies = movies.filter((movie) => {
+              if (category === 'Genre') {
+                return movie.genres && movie.genres.includes(subcategory);
+              } else if (category === 'Decade Released') {
+                // Assuming the subcategory is a decade (e.g., '1970s')
+                return movie.release_date && movie.release_date.startsWith(subcategory);
+              } else if (category === 'Language') {
+                // Assuming the subcategory matches the language (e.g., 'English')
+                return movie.language === subcategory;
+              } else if (category === 'Award-Winning') {
+                // Add logic to filter based on awards if available
+                return false; // Example: return movie.awards === subcategory;
+              }
+            });
+          }
+      
+          // Now you can loop through categories and subcategories to access all movies
+          for (const category of categories) {
+            for (const movie of category.movies) {
+              // Display each movie or process it as needed
+              console.log(movie.title);
             }
-            const data = await response.json(); // Parse response as JSON
-    
-            // Assuming the API response contains an array of movie objects, update the 'movies' array
-            movies = data[0].movies.map((movie) => ({
-                title: movie.title,
-                description: movie.overview,
-                posterUrl: movie.poster_path,
-                release_date: movie.release_date, // Include release date
-                genres: movie.genres, // Include genres
-                youtube_trailer: movie.trailer_url, // Include trailer URL
-                // Add more properties as needed
-            }));
-    
-            // Retrieve category and subcategory from query parameters
-            const params = new URLSearchParams(window.location.search);
-            const category = params.get('category');
-            const subcategory = params.get('subcategory');
-    
-            // Filter movies based on category and subcategory
-            if (category && subcategory) {
-                movies = movies.filter((movie) => {
-                    if (category === 'Genre') {
-                        return movie.genres && movie.genres.includes(subcategory);
-                    } else if (category === 'Decade Released') {
-                        // Assuming the subcategory is a decade (e.g., '1970s')
-                        return movie.release_date && movie.release_date.startsWith(subcategory);
-                    } else if (category === 'Language') {
-                        // Assuming the subcategory matches the language (e.g., 'English')
-                        return movie.language === subcategory;
-                    } else if (category === 'Award-Winning') {
-                        // Add logic to filter based on awards if available
-                        return false; // Example: return movie.awards === subcategory;
-                    }
-                });
-            }
-    
-            // Now that 'movies' contains filtered data, you can display the first movie
-            showMovieCard(movies[currentIndex]);
+          }
+      
+          // Initialize the UI with the first movie card
+          showMovieCard(movies[currentIndex]);
         } catch (error) {
-            console.error(error);
+          console.error(error);
         }
-    }
+      }
+      
     
     // Call the fetchData function to fetch and display movie information
     fetchData();
     
     function updateSwipeCounter() {
         const swipeCounterElement = document.getElementById('swipeCounter');
-        swipeCounterElement.textContent = `(${swipeCount}/10)`;
+        swipeCounterElement.textContent = `(${swipeCount}/25)`;
     }
     
     document.getElementById('likeButton').addEventListener('click', () => {
@@ -134,7 +160,7 @@
     function loadNextMovie() {
         currentIndex++;
     
-        if (swipeCount === 10) {
+        if (swipeCount === 25) {
             // Store liked movies in local storage
             localStorage.setItem('likedMovies', JSON.stringify(likedMovies));
             window.location.href = 'movie.html';

@@ -1,45 +1,4 @@
-async function fetchData() {
-    const url = 'https://movies-api14.p.rapidapi.com/search?query=breaking%20bad';
-    const options = {
-        method: 'GET',
-        headers: {
-            'X-RapidAPI-Key': '24c81b0a7amsh11e5a0d115cd66fp1247adjsn0c290c301f11',
-            'X-RapidAPI-Host': 'movies-api14.p.rapidapi.com'
-        }
-    };
 
-    try {
-        const response = await fetch(url, options);
-        const result = await response.json(); // Parse response as JSON
-        displayMovieInfo(result.contents); // Call a function to display the movie information
-    } catch (error) {
-        console.error(error);
-    }
-}
-
-function displayMovieInfo(movies) {
-    const movieInfoDiv = document.getElementById('movie-info');
-
-    // Loop through the movies and create HTML elements to display the information
-    movies.forEach((movie) => {
-        const movieElement = document.createElement('div');
-        movieElement.classList.add('movie');
-
-        // Populate the movie element with data from the API response
-        movieElement.innerHTML = `
-            <h2>${movie.title}</h2>
-            <p>Release Date: ${movie.release_date}</p>
-            <p>Genres: ${movie.genres.join(', ')}</p>
-            <p>Overview: ${movie.overview}</p>
-            <img src="${movie.poster_path}" alt="${movie.title} Poster">
-            <a href="${movie.youtube_trailer}" target="_blank">Watch Trailer</a>
-        `;
-
-        // Append the movie element to the movie-info container
-        movieInfoDiv.appendChild(movieElement);
-    });
-}
- 
  // Function to handle the button clicks
  function handleButtonClick(category) {
     // Update the page title
@@ -55,7 +14,7 @@ function displayMovieInfo(movies) {
     if (category === "Genre") {
         subcategories = ["Action & Adventure", "Comedy", "Drama", "Sci-Fi & Fantasy", "Horror", "Animation", "Random"];
     } else if (category === "Decade Released") {
-        subcategories = ["1970s","1980s", "1990s", "2000s", "2010s", "2020s", "Random"];
+        subcategories = ["2023","1980s", "1990s", "2000s", "2010s", "2020s", "Random"];
     } else if (category === "Language") {
         subcategories = ["English", "Spanish", "French", "German", "Mandarin", "Japanese", "Random"];
     } else if (category === "Award-Winning") {
