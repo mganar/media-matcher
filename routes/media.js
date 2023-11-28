@@ -12,12 +12,13 @@ router.get('/', async (req, res) => {
         res.json({ message: err.message })
     }
 })
-//Retieves one media by id
+
+//Retieves Media by ID
 router.get('/:id', getMediaInfo, (req, res) => {
     //Displays the contents of Media
-    res.send(res.media.title)
-    res.send(res.media.id)
+    res.send(res.media)
 })
+
 //Create a new media
 router.post('/', async (req, res) => {
     const media = new Media({
@@ -25,8 +26,7 @@ router.post('/', async (req, res) => {
         title: req.body.title,
         genre: req.body.genre,
         description: req.body.description,
-        background: req.body.background,
-        avg_vote: req.body.avg_vote
+        isLiked: req.body.isLiked
     })
 
     try {
@@ -37,16 +37,43 @@ router.post('/', async (req, res) => {
 
     }
 //Updating by ID
-    router.patch('/:id', async (req, res) => {
-        res.medi
+    router.patch('/:id', getMediaInfo, async (req, res) => {
+        if (req.body.title != null){
+            res.media.title = req.body.title
+        }
+        if (req.body.isLiked != null){
+            res.media.isLiked = req.body.isLiked
+        }
+        if (req.body.genre != null){
+            res.media.genre = req.body.genre
+        }
+        if (req.body.description != null){
+            res.media.description = req.body.description
+        }
+        try {
+            const newMedia = await res.media.save()
+            res.json(newMedia)
+        } catch (err) {
+            res.json({ message: "Cannot update new Media" })
+        }
     })
 
 //Deleting by ID
-    router.delete('/:id',  (req, res) => {
-    })
+router.delete('/:id', getMediaInfo, async (req, res) => {
+    try {
+      const media = await Media.findOneAndDelete({ _id: req.params.id });
+      if (!media) {
+        return res.json({ message: "Media not found" });
+      }
+      res.json({ message: "Media deleted successfully" });
+    } catch (err) {
+      res.json({ message: "Media unable to be deleted" });
+    }
+  })
 
 })
 
+//Middleware Function to Create Media Object
 async function getMediaInfo(req, res, next)
 {
     let media
