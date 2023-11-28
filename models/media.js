@@ -18,14 +18,10 @@ const mediaSchema = new mongoose.Schema({
     {
         type: String
     },
-    background: 
+    isLiked: 
     {
-        type: String
+        type: Boolean
 
-    },
-    avg_vote: 
-    {
-        type: Number
     }
  })
  
