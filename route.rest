@@ -1,7 +1,7 @@
 GET http://localhost:3000/media
 ###
 
-GET http://localhost:3000/media/6564f353a1485e3ac9ab5ead
+GET http://localhost:3000/media/65656d2f4e2ca7ba4ccb0215
 ###
 
 POST http://localhost:3000/media
@@ -12,6 +12,21 @@ Content-Type: application/json
     "title": "Hello",
     "genre": "Horror",
     "description": "Bad TV Show",
-    "background": "https://c8.alamy.com/comp/2AKEC06/call-me-funny-ice-cube-mascot-picture-style-2AKEC06.jpg",
-    "avg_vote": 10
+    "isLiked": 1
+}
+
+###
+DELETE http://localhost:3000/media/65658c37116caef698c5eb4a
+
+###
+GET http://localhost:3000/media/6565609f6a9eb0b4ed0e1a33
+
+
+###
+PATCH http://localhost:3000/media/65658c37116caef698c5eb4a
+Content-Type: application/json
+
+{
+    "title": "Apples",
+    "isLiked": "1"
 }
