@@ -11,6 +11,6 @@
     "passport-local-mongoose": "^8.0.0"
   },
   "scripts": {
-    "start": "nodemon media-matcher/practice.js"
+    "start": "nodemon media-matcher/index.js"
   }
 }

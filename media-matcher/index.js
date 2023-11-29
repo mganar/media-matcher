@@ -20,14 +20,15 @@ app.use(session({
 app.use(bodyParse.json())
 app.use(express.static('media-matcher'))
 app.use(express.static('media-matcher/views'))
+app.use(express.static('views'))
 app.use(express.static('media-matcher/scripts'))
 app.use(bodyParse.urlencoded({ extended: true }))
 
 
 // MongoDB connection
 mongoose.connect('mongodb+srv://test2:BElLVc5JkU1uONKl@media-match.scccma6.mongodb.net/', {
-   // useNewUrlParser: true,
-   // useUnifiedTopology: true
+   useNewUrlParser: true,
+   useUnifiedTopology: true
 })
 
 
@@ -162,7 +163,7 @@ app.get('/logout', (req, res) => {
 });
 
 // Route to fetch and return all movies
-app.get('/api/movies', async (req, res) => {
+app.get('/api/medias', async (req, res) => {
     try {
         const movies = await Movie.find();
         res.json(movies);
