@@ -7,7 +7,10 @@ const store = new session.MemoryStore();
 const e = require("express");
 
 // Initialize Express
+
 const app = express()
+
+
 // Session configuration
 app.use(session({
     secret: 'aFitjsuaijfvusiashfuoajsdh',
@@ -26,11 +29,11 @@ app.use(bodyParse.urlencoded({ extended: true }))
 
 // MongoDB connection
 mongoose.connect('mongodb+srv://test2:BElLVc5JkU1uONKl@media-match.scccma6.mongodb.net/', {
-   // useNewUrlParser: true,
-   // useUnifiedTopology: true
+   useNewUrlParser: true,
+    useUnifiedTopology: true
 })
 
-
+const db = mongoose.connection;
 // Define schemas for MongoDB collections
 const LogInSchema = new mongoose.Schema({
     name:{
@@ -57,7 +60,7 @@ const movieSchema = new mongoose.Schema({
 });
 
 // Database connection handling
-const db = mongoose.connection;
+
 db.on('error', () => console.log("error in connecting database"));
 db.once('open', () => console.log("Connected to Database"));
 
@@ -74,10 +77,9 @@ app.get("/", (req, res) => {
         "Allow-access-Allow-Origin": '*'
     })
 
-    return res.redirect('main.html');
+    return res.redirect("home.html");
 
 });
-
 // Route for user signup page
 
 app.get("/signup", (req, res)=>{
@@ -273,7 +275,7 @@ app.delete('/api/removeLikedMovie/:movieId', async (req, res) => {
 
 // Start the server on the specified port
 
-var port = process.env.PORT || 3001;
+var port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log("PORT CONNECTED!");
 })
