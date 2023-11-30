@@ -45,7 +45,11 @@ fetch('/api/medias')
       // Update the media card elements with the current media's data
       mediaCard.querySelector("h2").textContent = media.title;
       mediaCard.querySelector("p#overview").textContent = "Overview: " + media.overview;
-      mediaCard.querySelector("p#releaseDate").textContent = "Release Date: " + media.release_date;
+     // Modify to remove time part
+// Modify to format as "m-d-y"
+const releaseDate = new Date(media.release_date);
+const formattedDate = `${releaseDate.getMonth() + 1}-${releaseDate.getDate()}-${releaseDate.getFullYear()}`;
+mediaCard.querySelector("p#releaseDate").textContent = "Release Date: " + formattedDate;
       mediaCard.querySelector("p#genres").textContent = "Genres: " + media.genres.join(", ");
       mediaCard.querySelector("img").src = media.poster_path;
   
