@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Matcher</title>
-    <!-- Link your CSS file here -->
     <link rel="stylesheet" type="text/css" href="card.css">
 </head>
 <body>
-    <div id="instructions">Review each movie/TV show <span id="swipeCounter">(0/25)</span></div>
+    <div id="instructions">
+        Review each movie/TV show 
+        <span id="swipeCounter">(0/25)</span>
+    </div>
     <div class="movie-card">
-        <div id="movie-info">
-            <!-- Movie information will be displayed here -->
-            <img src="" alt="Movie/TV Show Poster">
-            <h2>Title</h2>
-            <p>Release Date: <span id="releaseDate"></span></p>
-            <p>Genres: <span id="genres"></span></p>
-            <p>Overview: <span id="overview"></span></p>
-            <a href="" target="_blank" id="trailerLink">Watch Trailer</a>
+        <div id="mediaCard">
+            <img src="media-image.jpg" alt="Movie/TV Show Poster">
+            <h2 id="title">Title</h2>
+            <p id="releaseDate">Release Date: </p>
+            <p id="genres">Genres: </p>
+            <p id="overview">Overview: </p>
+            <p id="contentType">Content Type: </p>
         </div>
         <div id="buttons">
-            <button id="dislikeButton">Dislike</button>
-           
-            <button id="likeButton">Like</button>
+            <button id="likeButton" class="action-button">Like</button>
+            <button id="dislikeButton" class="action-button">Dislike</button>
         </div>
+        
     </div>
-
-    <!-- Include your JavaScript file here -->
-    <script src="card.js"></script>
+    <script src="scripts/card.js"></script>
 </body>
 </html>

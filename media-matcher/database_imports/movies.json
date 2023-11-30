@@ -164,40 +164,7 @@
       "title": "Guardians of the Galaxy Vol. 2",
       "contentType": "movie"
     }
-    ,
-  {
-    "_id": 974924,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/dp2xG2CVHJpJJuP0BG5mb7Amg5p.jpg",
-    "genres": ["Action & Adventure", "Sci-Fi & Fantasy", "Comedy"],
-    "original_title": "The Adam Project",
-    "overview": "A time-traveling pilot teams up with his younger self and his late father to come to terms with his past while saving the future.",
-    "poster_path": "https://image.tmdb.org/t/p/original/c8SQbv0ZGfxXmrxZuVsgC6nT7TC.jpg",
-    "release_date": "2022-03-09",
-    "title": "The Adam Project",
-    "contentType": "movie"
-  },
-  {
-    "_id": 523786,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/ocJ6PWZJHBPdIaGkKdKcOzYIr2E.jpg",
-    "genres": ["Action & Adventure", "Thriller", "Comedy"],
-    "original_title": "The Lost City",
-    "overview": "An author's latest manuscript is stolen by a glamorous jewel thief, so she recruits a washed-up adventurer to help her retrieve it.",
-    "poster_path": "https://image.tmdb.org/t/p/original/zvWYtP2bFJgF2z1PZRptdrsUn3r.jpg",
-    "release_date": "2022-03-17",
-    "title": "The Lost City",
-    "contentType": "movie"
-  },
-  {
-    "_id": 635302,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/tb1v8v3JUf8w5zUjqwT891civcE.jpg",
-    "genres": ["Action & Adventure", "Comedy"],
-    "original_title": "No Time to Die",
-    "overview": "James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from the CIA, turns up asking for help, leading Bond onto the trail of a mysterious villain who's armed with a dangerous new technology. ",
-    "poster_path": "https://image.tmdb.org/t/p/original/3Lbq5T7KurE1SU8dPTITWBK5MSm.jpg",
-    "release_date": "2021-09-29",
-    "title": "No Time to Die",
-    "contentType": "movie"
-  }]
+]
 
 
 

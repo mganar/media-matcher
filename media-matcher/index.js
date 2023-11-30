@@ -20,7 +20,6 @@ app.use(session({
 app.use(bodyParse.json())
 app.use(express.static('media-matcher'))
 app.use(express.static('media-matcher/views'))
-app.use(express.static('views'))
 app.use(express.static('media-matcher/scripts'))
 app.use(bodyParse.urlencoded({ extended: true }))
 
@@ -32,6 +31,7 @@ mongoose.connect('mongodb+srv://test2:BElLVc5JkU1uONKl@media-match.scccma6.mongo
 })
 
 
+var db = mongoose.connection;
 // Define schemas for MongoDB collections
 const LogInSchema = new mongoose.Schema({
     name:{
@@ -42,10 +42,10 @@ const LogInSchema = new mongoose.Schema({
         type:String,
         required:true
     },
-    likedMovies: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Movie' }]
+    likedMedias: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Media' }]
 })
 
-const movieSchema = new mongoose.Schema({
+const mediaSchema = new mongoose.Schema({
     _id: Number,
     backdrop_path: String,
     genres: [String],
@@ -58,15 +58,13 @@ const movieSchema = new mongoose.Schema({
 });
 
 // Database connection handling
-const db = mongoose.connection;
+
 db.on('error', () => console.log("error in connecting database"));
 db.once('open', () => console.log("Connected to Database"));
-
-
 // Create models for MongoDB collections
-const collection = new mongoose.model("users", LogInSchema);
-const Movie = new mongoose.model("movies", movieSchema);
 
+const collection = new mongoose.model("users", LogInSchema);
+const Media = new mongoose.model("medias", mediaSchema);
 // Route for the root path
 
 app.get("/", (req, res) => {
@@ -79,25 +77,23 @@ app.get("/", (req, res) => {
 
 });
 
-
 // Route for user signup page
 
 app.get("/signup", (req, res)=>{
     return res.redirect("signup.html");
 })
 
-
 // Route for user signup form submission
 
 app.post("/signup", (request, response)=>{
     const email = request.body.email;
     const password = request.body.password;
-    const likedMovies = [];
+    const likedMedias = [];
 
     var data = {
         "email": email,
         "password": password,
-        "likedMovies": likedMovies
+        "likedMedias": likedMedias
     }
 
     db.collection('users').insertOne(data,(err,collection)=>{
@@ -108,7 +104,6 @@ app.post("/signup", (request, response)=>{
     })
     return response.redirect("index.html");
 })
-
 
 // Route for user login
 app.post("/login", (req, res) => {
@@ -142,7 +137,6 @@ app.post("/login", (req, res) => {
 });
 
 
-
 // Route for user logout
 
 app.get('/logout', (req, res) => {
@@ -162,35 +156,37 @@ app.get('/logout', (req, res) => {
     }
 });
 
-// Route to fetch and return all movies
+  // Define an API endpoint to retrieve medias
 app.get('/api/medias', async (req, res) => {
-    try {
-        const movies = await Movie.find();
-        res.json(movies);
-    } catch (error) {
-        console.error('Error fetching movie data:', error);
-        res.status(500).json({ error: 'Internal Server Error' });
-    }
+  try {
+    const medias = await Media.find();
+    res.json(medias);
+} catch (error) {
+    console.error('Error fetching media data:', error);
+    
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
 });
 
-// Route to fetch and return user's liked movies
 
-app.get('/likedMovies', async (req, res) => {
+// Route to fetch and return user's liked medias
+
+app.get('/likedMedias', async (req, res) => {
     const username = req.session.user;
   
     try {
       const user = await collection.findOne({ email: username });
   
       if (user) {
-        const likedMovies = user.likedMovies;
+        const likedMedias = user.likedMedias;
   
-        // Use Promise.all to fetch all liked Movies concurrently
+        // Use Promise.all to fetch all liked medias concurrently
         const results = await Promise.all(
-          likedMovies.map(async (likedMovie) => {
+          likedMedias.map(async (likedMedia) => {
             try {
-              return await Movie.findOne({ _id: likedMovie }).exec();
+              return await Media.findOne({ _id: likedMedia }).exec();
             } catch (err) {
-              console.error('Error searching for document with ObjectID', likedMovie, ':', err);
+              console.error('Error searching for document with ObjectID', likedMedia, ':', err);
               return null; // Return null for failed queries
             }
           })
@@ -204,10 +200,9 @@ app.get('/likedMovies', async (req, res) => {
   });
   
 
-
-// Route to save liked movies to a user
-app.post('/api/saveLikedMovie/:movieId', async (req, res) => {
-    const movieId = req.params.movieId;
+//save likes medias ID to user 
+app.post('/api/saveLikedMedia/:mediaId', async (req, res) => {
+    const mediaId = req.params.mediaId;
     const username = req.session.user; // Get the username from the session
 
     try {
@@ -215,33 +210,35 @@ app.post('/api/saveLikedMovie/:movieId', async (req, res) => {
         const user = await collection.findOne({ email: username });
 
         if (user) {
-            // Check if the movieId is already in the likedMovies array
-            if (!user.likedMovies) {
-                user.likedMovies = []; // Initialize likedMovies if it doesn't exist
+            // Check if the mediaId is already in the likedMedias array
+            if (!user.likedMedias) {
+                user.likedMedias = []; // Initialize likedMedias if it doesn't exist
             }
 
-            if (!user.likedMovies.includes(movieId)) {
-                user.likedMovies.push(movieId);
+            if (!user.likedMedias.includes(mediaId)) {
+                user.likedMedias.push(mediaId);
 
-                // Update the user's likedMovies in the database
-                await collection.updateOne({ email: username }, { $set: { likedMovies: user.likedMovies } });
+                // Update the user's likedMedias in the database
+                await collection.updateOne({ email: username }, { $set: { likedMedias: user.likedMedias } });
 
-                res.status(200).json({ message: 'Movie added to liked movies.' });
+                res.status(200).json({ message: 'Media added to liked medias.' });
             } else {
-                res.status(400).json({ message: 'Movie is already in liked movies.' });
+                res.status(400).json({ message: 'Media is already in liked medias.' });
             }
         } else {
             res.status(404).json({ message: 'User not found.' });
         }
     } catch (error) {
-        console.error('Error saving liked movie:', error);
+        console.error('Error saving liked media:', error);
         res.status(500).json({ error: 'Internal Server Error' });
     }
 });
 
-// Route to remove a liked movie from a user's profile
-app.delete('/api/removeLikedMovie/:movieId', async (req, res) => {
-    const movieId = req.params.movieId;
+
+// Route to remove a liked media from a user's profile
+
+app.delete('/api/removeLikedMedia/:mediaId', async (req, res) => {
+    const mediaId = req.params.mediaId;
     const username = req.session.user; // Get the username from the session
 
     try {
@@ -249,26 +246,26 @@ app.delete('/api/removeLikedMovie/:movieId', async (req, res) => {
         const user = await collection.findOne({ email: username });
 
         if (user) {
-            if (!user.likedMovies) {
-                user.likedMovies = [];
+            if (!user.likedMedias) {
+                user.likedMedias = [];
             }
-            // Check if the movieId is in the likedMovies array
-            const index = user.likedMovies.indexOf(movieId);
+            // Check if the mediaId is in the likedMedias array
+            const index = user.likedMedias.indexOf(mediaId);
             if (index !== -1) {
-                // Remove the movieId from the likedMovies array
-                user.likedMovies.splice(index, 1);
-                // Update the user's likedMovies in the database
-                await collection.updateOne({ email: username }, { $set: { likedMovies: user.likedMovies } });
+                // Remove the mediaId from the likedMedias array
+                user.likedMedias.splice(index, 1);
+                // Update the user's likedMedias in the database
+                await collection.updateOne({ email: username }, { $set: { likedMedias: user.likedMedias } });
 
-                res.status(200).json({ message: 'Movie removed from liked movies.' });
+                res.status(200).json({ message: 'Media removed from liked medias.' });
             } else {
-                res.status(400).json({ message: 'Movie is not in liked movies.' });
+                res.status(400).json({ message: 'Media is not in liked medias.' });
             }
         } else {
             res.status(404).json({ message: 'User not found.' });
         }
     } catch (error) {
-        console.error('Error removing liked movie:', error);
+        console.error('Error removing liked media:', error);
         res.status(500).json({ error: 'Internal Server Error' });
     }
 });
