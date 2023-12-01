@@ -4,6 +4,11 @@ let currentIndex = 0;
 const likeList = [];
 let swipeCount = 0;
 
+// Get category and subcategory parameters from the URL
+const urlParams = new URLSearchParams(window.location.search);
+const selectedCategory = urlParams.get("category");
+const selectedSubcategory = urlParams.get("subcategory");
+
 
 // Function to shuffle an array using Fisher-Yates algorithm
 function shuffleArray(array) {
@@ -21,26 +26,33 @@ fetch('/api/medias')
       // Shuffle the medias array
       shuffleArray(medias);
       // Now, you can work with the shuffled 'medias' array to display the medias.
-      showMedia(currentIndex);
+      showMedia(currentIndex, selectedCategory, selectedSubcategory);
   })
-  .catch(error => {
+  .catch(error => {f
       console.error('Error fetching media data:', error);
   });
 
    
-    function showMedia(index) {
-      console.log("Showing media at index:", index);
-  
-      const mediaCard = document.querySelector("#mediaCard"); // Use ID selector
-  
-      if (index < 0 || index >= medias.length) {
-          console.log("Index out of bounds.");
-          mediaCard.innerHTML = "No more medias to display.";
-          return;
-      }
-  
-      const media = medias[index];
-  
+  function showMedia(index, selectedCategory, selectedSubcategory) {
+    console.log("Showing media at index:", index);
+
+    const mediaCard = document.querySelector("#mediaCard"); // Use ID selector
+
+    if (index < 0 || index >= medias.length) {
+        console.log("Index out of bounds.");
+        mediaCard.innerHTML = "No more medias to display.";
+        return;
+    }
+
+    const media = medias[index];
+
+    // Check if the selected category is "Genre" and if the media's genres include the selected subcategory
+    if (selectedCategory === "Genre" && !media.genres.includes(selectedSubcategory)) {
+        // If it doesn't match, skip this media and show the next one
+        currentIndex++;
+        showMedia(currentIndex, selectedCategory, selectedSubcategory);
+        return;
+    }
       console.log("Media:", media);
       // Update the media card elements with the current media's data
       mediaCard.querySelector("h2").textContent = media.title;
@@ -76,12 +88,12 @@ function toggleDropdownMenu() {
 // Function to handle the "dislike" action
 function dislikeMedia() {
     currentIndex++;
-    showMedia(currentIndex);
+    showMedia(currentIndex, selectedCategory, selectedSubcategory);
 }
 
 // Function to redirect to the next page if currentIndex reaches 25
 function redirectToNextPage() {
-  if (currentIndex === 25) {
+  if (swipeCount === 25) {
       // Redirect to the next page (replace 'nextPage.html' with the actual URL)
       window.location.href = 'movie.html';
   }
@@ -89,8 +101,9 @@ function redirectToNextPage() {
 
 // Event listener for the like button
 document.querySelector("#likeButton").addEventListener("click", () => {
+    swipeCount++;
   currentIndex++;
-  showMedia(currentIndex);
+  showMedia(currentIndex, selectedCategory, selectedSubcategory);
   updateSwipeCounter();
 
   const currentMedia = medias[currentIndex];
@@ -108,8 +121,9 @@ document.querySelector("#likeButton").addEventListener("click", () => {
 
 // Event listener for the dislike button
 document.querySelector("#dislikeButton").addEventListener("click", () => {
+    swipeCount++;
   currentIndex++;
-  showMedia(currentIndex);
+  showMedia(currentIndex, selectedCategory, selectedSubcategory);
   updateSwipeCounter();
 
   const currentMedia = medias[currentIndex];
@@ -127,7 +141,7 @@ document.querySelector("#dislikeButton").addEventListener("click", () => {
 
 // Function to update the swipe counter in the HTML
 function updateSwipeCounter() {
-  document.querySelector("#swipeCounter").textContent = `(${currentIndex}/25)`;
+  document.querySelector("#swipeCounter").textContent = `(${swipeCount}/25)`;
 }
 
 // Call the initial update of the swipe counter
