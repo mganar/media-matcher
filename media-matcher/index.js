@@ -46,7 +46,6 @@ const LogInSchema = new mongoose.Schema({
 })
 
 const mediaSchema = new mongoose.Schema({
-    _id: Number,
     backdrop_path: String,
     genres: [String],
     original_title: String,
