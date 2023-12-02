@@ -271,7 +271,7 @@ app.delete('/api/removeLikedMedia/:mediaId', async (req, res) => {
 
 // Start the server on the specified port
 
-var port = process.env.PORT || 3002;
+var port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log("PORT CONNECTED!");
 })
