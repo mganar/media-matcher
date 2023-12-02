@@ -13,6 +13,13 @@
     if (category === "Genre") {
         subcategories = ["Action & Adventure", "Comedy", "Drama", "Sci-Fi & Fantasy", "Horror", "Animation"];
     } 
+    else if (category === "Decade Released") {
+        subcategories = ["2000s", "2010s", "2020s"];
+    }
+
+        else if (category === "Content Type") {
+            subcategories = ["Movies", "Shows"]
+        }
     
     // Generate and display subcategory buttons
     var subcategoriesHtml = "";
@@ -63,6 +70,6 @@ document.getElementById("decadeButton").addEventListener("click", function () {
     handleButtonClick("Decade Released");
 });
 
-document.getElementById("languageButton").addEventListener("click", function () {
-    handleButtonClick("Language");
+document.getElementById("contentTypeButton").addEventListener("click", function () {
+    handleButtonClick("Content Type");
 });

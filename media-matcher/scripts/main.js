@@ -54,14 +54,36 @@ fetch('/api/medias')
         }
     
         const media = medias[index];
-    
-        // Check if the selected category is "Genre" and if the media's genres include the selected subcategory
-        if (selectedCategory === "Genre" && !media.genres.includes(selectedSubcategory)) {
-            // If it doesn't match, skip this media and show the next one
-            currentIndex++;
-            showMedia(currentIndex, selectedCategory, selectedSubcategory);
-            return;
+      
+      
+      
+        if (selectedCategory === "Genre") {
+            if (!media.genres.includes(selectedSubcategory)) {
+                currentIndex++;
+                showMedia(currentIndex, selectedCategory, selectedSubcategory);
+                return;
+            }
+        } else if (selectedCategory === "Decade Released") {
+            // Extract the first three characters of the release year (e.g., "20" for 2023)
+            const releaseYearPrefix = media.release_date.slice(0, 3);
+        
+            if (releaseYearPrefix !== selectedSubcategory.slice(0, 3)) {
+                currentIndex++;
+                showMedia(currentIndex, selectedCategory, selectedSubcategory);
+                return;
+            }
+        }   else if (selectedCategory === "Content Type") {
+            if (selectedSubcategory === "Movies" && media.contentType !== "movie") {
+                currentIndex++;
+                showMedia(currentIndex, selectedCategory, selectedSubcategory);
+                return;
+            } else if (selectedSubcategory === "Shows" && media.contentType !== "show") {
+                currentIndex++;
+                showMedia(currentIndex, selectedCategory, selectedSubcategory);
+                return;
+            }
         }
+
           console.log("Media:", media);
           // Update the media card elements with the current media's data
           mediaCard.querySelector("h2").textContent = media.title;
