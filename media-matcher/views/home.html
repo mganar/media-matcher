@@ -1,18 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <!-- Define the document type and language -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to external resources -->
+
+    <link rel="stylesheet" href="main.css"> <!-- Link to your CSS file for styling -->
+    <link rel="icon" href="images/favicon.ico?" type="image/x-icon">
+        <!-- Set the title of the page -->
+
     <title>Media Matcher</title>
-<link rel="stylesheet" href="mainstyles.css">
 </head>
 <body>
-    <h1 id="pageTitle">Media Matcher</h1>
-    <div id="buttonsContainer">
-        <button class="button" id="genreButton">Genre</button>
-       
+        <!-- Create a dropdown menu for navigation -->
+
+    <div class="dropdown">
+        <a class="dropdown-button">Menu</a>
+        <ul class="dropdown-menu">
+            <li><a href="category.html">Return to Category Page</a></li>
+            <li><a href ="liked-medias.html">Liked Medias</a></li>
+            <li><a href="/logout">Log Out</a></li>
+        </ul>
     </div>
-    <div id="subcategories" style="display: none;"></div>
-    <button class="button" id="backButton" style="display: none;">Back</button>
-  
-    <script src="main.js"> </script>
+      <!-- Page header with the title and description -->
+
+    <header>
+        <div class="Title">
+        <h1>Media Matcher</h1>
+        <h4>Your source for the best movies</h4>
+    </div>
+    </header>
+        <!-- Create a media card with an image, name, description, and action buttons -->
+
+        <div class="media-card" id="mediaCard">
+            <img src="media-image.jpg" alt="Media Image">
+            <h2>Media Name</h2>
+        
+           
+            <p class="overview">Description of the media goes here...</p>
+            <p>Release Date: <span class="release-date"></span></p>
+            <p>Genres: <span class="media-genres"></span></p>
+            <p>Content Type: <span class="content-type"></span></p>
+            <div class="action-buttons">
+                <button class="dislike-button"> <img src="images/cancel.png"> </button>
+                <button class="like-button"> <img src="images/right.png"></button>
+            </div>
+        </div>
+        <!-- Create a media card with an image, name, description, and action buttons -->
+
+    <script src="scripts/main.js"></script>
 </body>
 </html>

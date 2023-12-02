@@ -72,7 +72,7 @@ app.get("/", (req, res) => {
         "Allow-access-Allow-Origin": '*'
     })
 
-    return res.redirect('home.html');
+    return res.redirect('category.html');
 
 });
 
@@ -126,7 +126,7 @@ app.post("/login", (req, res) => {
                     req.session.authenticated = true;
                     req.session.user = email;
                     
-                    return res.redirect('home.html');
+                    return res.redirect('category.html');
                 } else {
                     return res.status(401).send("Invalid Password");
                 }
@@ -271,7 +271,7 @@ app.delete('/api/removeLikedMedia/:mediaId', async (req, res) => {
 
 // Start the server on the specified port
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3002;
 app.listen(port, () => {
     console.log("PORT CONNECTED!");
 })
