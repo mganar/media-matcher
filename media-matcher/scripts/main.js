@@ -119,7 +119,7 @@ document.querySelector(".dislike-button").addEventListener("click", () => {
         // Assuming currentMedia._id is a valid ObjectId
         const likedMediaID = currentMedia._id;
         console.log(likedMediaID);
-        removeLikedMedia(likedMediaID)
+       // removeLikedMedia(likedMediaID)
     }
     currentIndex++;
     showMedia(currentIndex, selectedCategory, selectedSubcategory);
@@ -150,7 +150,7 @@ function saveLikedMedia(mediaId) {
     });
 }
 
-
+/*
 // Function to remove a liked media from the user's profile
 function removeLikedMedia(mediaId) {
     // You can use JavaScript fetch or another method to make the request
@@ -170,7 +170,7 @@ function removeLikedMedia(mediaId) {
         console.error('Network error:', error);
     });
 }
-
+*/
 
 
 
