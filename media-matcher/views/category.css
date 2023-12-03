@@ -8,3 +8,47 @@ body {
     margin: 10px;
     cursor: pointer;
 }
+
+
+/* Dropdown container */
+.dropdown {
+    top: 0;
+    left: 0;
+    position: fixed; /* Use fixed positioning to place it relative to the viewport */
+    display: inline-block;
+}
+
+/* Dropdown button style */
+.dropdown-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px; 
+    text-decoration: none;
+    border: none; 
+    border-radius: 4px; 
+    display: inline-block; 
+}
+
+/* Dropdown menu style */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 45px; /* Adjust this value to position the menu as desired */
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+}
+
+/* Dropdown menu item style */
+.dropdown-menu li {
+    padding: 15px; /* Increased padding */
+}
+
+
+/* Dropdown menu item link style */
+.dropdown-menu a {
+    text-decoration: none;
+    color: #333;
+}

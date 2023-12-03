@@ -103,15 +103,7 @@ fetch('/api/medias')
           }
       }
  
-// Function to toggle the dropdown menu
-function toggleDropdownMenu() {
-    const dropdownMenu = document.querySelector(".dropdown-menu");
-    if (dropdownMenu.style.display === "block") {
-        dropdownMenu.style.display = "none";
-    } else {
-        dropdownMenu.style.display = "block";
-    }
-}
+
 
 // Function to handle the "dislike" action
 function dislikeMedia() {
@@ -146,6 +138,17 @@ document.querySelector(".dislike-button").addEventListener("click", () => {
     currentIndex++;
     showMedia(currentIndex, selectedCategory, selectedSubcategory);
 });
+
+
+// Function to toggle the dropdown menu
+function toggleDropdownMenu() {
+    const dropdownMenu = document.querySelector(".dropdown-menu");
+    if (dropdownMenu.style.display === "block") {
+        dropdownMenu.style.display = "none";
+    } else {
+        dropdownMenu.style.display = "block";
+    }
+}
 
 // Event listener for the dropdown button
 const dropdownButton = document.querySelector(".dropdown-button");

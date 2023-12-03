@@ -35,7 +35,6 @@ p {
 }
 /* Apply a background color to the body */
 body {
-    background-image: url('images/background2.webp');
     font-family: Arial, sans-serif;
 }
 /* Styling for the ingredients list */

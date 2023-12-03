@@ -412,7 +412,7 @@
   },
   {
     "backdrop_path": "https://image.tmdb.org/t/p/original/bguuQM2CP9BoMv7pSVMlECPHe5T.jpg",
-    "genres": ["Documentary", "TV Movie"],
+    "genres": ["Documentary"],
     "original_title": "TIME100: The World's Most Influential People",
     "overview": "Jennifer Coolidge hosts the gala, which features performances by Doja Cat and Lea Michele, honorary tributes from members of this year's list and remarks from TIME CEO Jessica Sibley.",
     "poster_path": "https://image.tmdb.org/t/p/original/jg0sVs4NFy1Hg1JBmn5SPaYN6z0.jpg",      
@@ -422,7 +422,7 @@
   },
   {
     "backdrop_path": "https://image.tmdb.org/t/p/original/zh614Bixv2ePaHK8gzcUpUmcvYv.jpg",
-    "genres": ["Documentary", "TV Movie"],
+    "genres": ["Documentary"],
     "original_title": "Charles: In His Own Words",
     "overview": "A documentary special that provides a rare view into the real Charles behind the headlines… told in his own words.",
     "poster_path": "https://image.tmdb.org/t/p/original/hdbQ5M8Jj3PFsYW95Lt343Jgata.jpg",      
@@ -662,7 +662,7 @@
   },
   {
     "backdrop_path": "https://image.tmdb.org/t/p/original/adlZgxAudw3ZPA0HUcDzSTKrH8B.jpg",
-    "genres": ["Action & Adventure", "Animation", "TV Movie", "Sci-Fi & Fantasy"],
+    "genres": ["Action & Adventure", "Animation", "Sci-Fi & Fantasy"],
     "original_title": "Miraculous World : New York, les héros unis",
     "overview": "Teen Parisian superheroes Ladybug and Chat Noir visit New York on a field trip and discover that superheroes exist in the United States too.",
     "poster_path": "https://image.tmdb.org/t/p/original/9YbyvcrHmY2SVbdfXpb8mC4Fy0g.jpg",      
@@ -708,16 +708,6 @@
     "poster_path": "https://image.tmdb.org/t/p/original/3JysDbn3kZ1nc4a1yQgkg81KIdZ.jpg",      
     "release_date": "2023-03-03",
     "title": "Barbie: Skipper and the Big Babysitting Adventure",
-    "contentType": "movie"
-  },
-  {
-    "backdrop_path": "https://image.tmdb.org/t/p/original/3kz6mLESBmdxAJwoHMS5YYfoWLE.jp",
-    "genres": ["Sci-Fi & Fantasy", "Action & Adventure"],
-    "original_title": "The Hunger Games",
-    "overview": "Every year in the ruins of what was once North America, the nation of Panem forces each of its twelve districts to send a teenage boy and girl to compete in the Hunger Games. Part twisted entertainment, part government intimidation tactic, the Hunger Games are a nationally televised event in which “Tributes” must fight with one another until one survivor remains. Pitted against highly-trained Tributes who have prepared for these Games their entire lives, Katniss is forced to rely upon her sharp instincts as well as the mentorship of drunken former victor Haymitch Abernathy. If she’s ever to return home to District 12, Katniss must make impossible choices in the arena that weigh survival against humanity and life against love. The world will be watching.",
-    "poster_path": "https://image.tmdb.org/t/p/original/1ewwtjqAcwZ5abr2X7coGN0UwaI.jp",      
-    "release_date": "2012-03-12",
-    "title": "The Hunger Games",
     "contentType": "movie"
   },
   {
@@ -829,18 +819,432 @@
     "release_date": "2004-04-16",
     "title": "Kill Bill: Vol. 2",
     "contentType": "movie"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/9xxLWtnFxkpJ2h1uthpvCRK6vta.jpg",
+    "release_date": "1999-09-20",
+    "genres": ["Crime", "Drama", "Mystery"],
+    "original_title": "Law & Order: Special Victims Unit",
+    "overview": "In the criminal justice system, sexually-based offenses are considered especially heinous. In New York City, the dedicated detectives who investigate these vicious felonies are members of an elite squad known as the Special Victims Unit. These are their stories.",
+    "poster_path": "https://image.tmdb.org/t/p/original/ywBt4WKADdMVgxTR1rS2uFwMYTH.jpg",
+    "title": "Law & Order: Special Victims Unit",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/uNyEVSPeAtJgUBehuQJ8WEFwatN.jpg",
+    "release_date": "1989-12-17",
+    "genres": ["Family", "Animation", "Comedy"],
+    "original_title": "The Simpsons",
+    "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
+    "poster_path": "https://image.tmdb.org/t/p/original/zI3E2a3WYma5w8emI35mgq5Iurx.jpg",
+    "title": "The Simpsons",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/z7z6zTfEeasEov6Y2ezVOxW5tsb.jpg",
+    "release_date": "2023-01-15",
+    "genres": ["Drama"],
+    "original_title": "The Last of Us",
+    "overview": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
+    "poster_path": "https://image.tmdb.org/t/p/original/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
+    "title": "The Last of Us",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/n5FPNMJ0eRoiQrKGfUQQRAZeaxg.jpg",
+    "release_date": "2023-05-04",
+    "genres": ["Sci-Fi & Fantasy", "Drama"],
+    "original_title": "Silo",
+    "overview": "In a ruined and toxic future, a community exists in a giant underground silo that plunges hundreds of stories deep. There, men and women live in a society full of regulations they believe are meant to protect them.",
+    "poster_path": "https://image.tmdb.org/t/p/original/1NxaSn4ver4jIvLeD7YF8cTlZjB.jpg",
+    "title": "Silo",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/caGVr9Il2gj8bN4ow6qsLm60TxM.jpg",
+    "release_date": "2005-03-27",
+    "genres": ["Drama"],
+    "original_title": "Grey's Anatomy",
+    "overview": "Follows the personal and professional lives of a group of doctors at Seattle’s Grey Sloan Memorial Hospital.",
+    "poster_path": "https://image.tmdb.org/t/p/original/daSFbrt8QCXV2hSwB0hqYjbj681.jpg",
+    "title": "Grey's Anatomy",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/5rnL7gIZQvYEKSFTxehqnGcG88u.jpg",
+    "release_date": "2003-09-23",
+    "genres": ["Crime", "Drama", "Action & Adventure"],
+    "original_title": "NCIS",
+    "overview": "From murder and espionage to terrorism and stolen submarines, a team of special agents investigates any crime that has a shred of evidence connected to Navy and Marine Corps personnel, regardless of rank or position.",
+    "poster_path": "https://image.tmdb.org/t/p/original/2exOHePjOTquUsbThPGhuEjYTyA.jpg",
+    "title": "NCIS",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/gFkHcIh7iE5G0oVOgpmY8ONQjhl.jpg",
+    "release_date": "2014-10-07",
+    "genres": ["Drama","Sci-Fi & Fantasy"],
+    "original_title": "The Flash",
+    "overview": "After a particle accelerator causes a freak storm, CSI Investigator Barry Allen is struck by lightning and falls into a coma. Months later he awakens with the power of super speed, granting him the ability to move through Central City like an unseen guardian angel. Though initially excited by his newfound powers, Barry is shocked to discover he is not the only \"meta-human\" who was created in the wake of the accelerator explosion -- and not everyone is using their new powers for good. Barry partners with S.T.A.R. Labs and dedicates his life to protect the innocent. For now, only a few close friends and associates know that Barry is literally the fastest man alive, but it won't be long before the world learns what Barry Allen has become...The Flash.",
+    "poster_path": "https://image.tmdb.org/t/p/original/rg8N7x27Ef6PvlIiioLStf9ZaIO.jpg",
+    "title": "The Flash",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/dDPwCyZG8arYwMDoQl0sm4xccCE.jpg",
+    "release_date": "2013-09-23", 
+    "genres": ["Drama", "Crime", "Mystery"],
+    "original_title": "The BlackList", 
+    "overview": "Raymond \"Red\" Reddington, one of the FBI's most wanted fugitives, surrenders in person at FBI Headquarters in Washington, D.C. He claims that he and the FBI have the same interests: bringing down dangerous criminals and terrorists. In the last two decades, he's made a list of criminals and terrorists that matter the most but the FBI cannot find because it does not know they exist. Reddington calls this \"The Blacklist\". Reddington will co-operate, but insists that he will speak only to Elizabeth Keen, a rookie FBI profiler.",
+    "poster_path": "https://image.tmdb.org/t/p/original/htJzeRcYI2ewMm4PTrg98UMXShe.jpg",
+    "title": "The BlackList", 
+    "contentType": "show"
+  },
+   {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
+    "release_date": "1999-01-31", 
+    "genres": ["Animation", "Comedy"],
+    "original_title": "Family Guy",
+    "overview": "Sick, twisted, politically incorrect and Freakin' Sweet animated series featuring the adventures of the dysfunctional Griffin family. Bumbling Peter and long-suffering Lois have three kids. Stewie (a brilliant but sadistic baby bent on killing his mother and taking over the world), Meg (the oldest, and is the most unpopular girl in town) and Chris (the middle kid, he's not very bright but has a passion for movies). The final member of the family is Brian - a talking dog and much more than a pet, he keeps Stewie in check whilst sipping Martinis and sorting through his own life issues.",
+    "poster_path": "https://image.tmdb.org/t/p/original/aLB7psB9N81n5GecHNOudXWW3AI.jpg",
+    "title": "Family Guy",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/nVRyd8hlg0ZLxBn9RaI7mUMQLnz.jpg",
+    "release_date": "2005-09-13",
+    "genres": ["Sci-Fi & Fantasy", "Mystery", "Drama"],
+    "original_title": "Supernatural",
+    "overview": "When they were boys, Sam and Dean Winchester lost their mother to a mysterious and demonic supernatural force. Subsequently, their father raised them to be soldiers. He taught them about the paranormal evil that lives in the dark corners and on the back roads of America ... and he taught them how to kill it. Now, the Winchester brothers crisscross the country in their '67 Chevy Impala, battling every kind of supernatural threat they encounter along the way. ",
+    "poster_path": "https://image.tmdb.org/t/p/original/KoYWXbnYuS3b0GyQPkbuexlVK9.jpg",
+    "title": "Supernatural",
+    "contentType": "show"
+  },
+   {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/xZUZ9i6vVayjyhR1vRo9Bjku4h.jpg",
+    "release_date": "2016-01-25",
+    "genres": ["Sci-Fi & Fantasy","Crime"],
+    "original_title": "Lucifer",
+    "overview": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
+    "poster_path": "https://image.tmdb.org/t/p/original/ekZobS8isE6mA53RAiGDG93hBxL.jpg", 
+    "title": "Lucifer",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/dkKEpUCjGEFH5q3GcAGaWG3o2N2.jpg",
+    "release_date": "2023-05-04", 
+    "genres": ["Drama"],
+    "original_title": "Queen Charlotte: A Bridgerton Story", 
+    "overview": "The story of how the young Queen Charlotte’s marriage to King George sparked both a great love story and a societal shift, creating the world of the Ton inherited by the characters in Bridgerton.",
+    "poster_path": "https://image.tmdb.org/t/p/original/eR7btjpvOugivUYSoEsD2iAOYsJ.jpg",
+    "title": "Queen Charlotte: A Bridgerton Story",
+    "contentType": "show"
+  }, {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/fXRgyxFxT3SG45fDqUODDRNE9IJ.jpg",
+    "release_date": "2017-09-25",
+    "genres": ["Comedy","Family"],
+    "original_title": "Young Sheldon",
+    "overview": "The early life of child genius Sheldon Cooper, later seen in The Big Bang Theory.",
+    "poster_path": "https://image.tmdb.org/t/p/original/MpdROQ5XxQqOMKhJlLUf7PTxIC.jpg",
+    "title": "Young Sheldon",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path":"https://image.tmdb.org/t/p/original/6Lw54zxm6BAEKJeGlabyzzR5Juu.jpg", 
+    "release_date": "2019-11-12",
+    "genres": ["Action & Adventure","Sci-Fi & Fantasy","Drama"],
+    "original_title": "The Mandalorian",
+    "overview": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
+    "poster_path": "https://image.tmdb.org/t/p/original/eU1i6eHXlzMOlEq0ku1Rzq7Y4wA.jpg",
+    "title": "The Mandalorian",
+    "contentType": "show"
+  }, {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/mNHRGO1gFpR2CYZdANe72kcKq7G.jpg",
+    "release_date": "2022-11-13",
+    "genres": ["Crime","Drama"],
+    "original_title": "Tulsa King",
+    "overview": "Just after he is released from prison after 25 years, New York mafia capo Dwight “The General” Manfredi is unceremoniously exiled by his boss to set up shop in Tulsa, Okla. Realizing that his mob family may not have his best interests in mind, Dwight slowly builds a “crew” from a group of unlikely characters, to help him establish a new criminal empire in a place that to him might as well be another planet.",
+    "poster_path": "https://image.tmdb.org/t/p/original/fwTv3RPRAIy0maOMns5eYRRwnDk.jpg",
+    "title": "Tulsa King",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/iHSwvRVsRyxpX7FE7GbviaDvgGZ.jpg",
+    "release_date": "2022-11-23",
+    "genres": ["Comedy", "Mystery", "Comedy"],
+    "original_title": "Wednesday",
+    "overview": "Wednesday Addams is sent to Nevermore Academy, a bizarre boarding school where she attempts to master her psychic powers, stop a monstrous killing spree of the town citizens, and solve the supernatural mystery that affected her family 25 years ago — all while navigating her new relationships.",
+    "poster_path": "https://image.tmdb.org/t/p/original/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
+    "title": "Wednesday",
+    "contentType": "show"
+  }, {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/ogMd4e3A0uSNwZADzgC23zCByoi.jpg",
+    "release_date": "2015-10-19",
+    "genres": ["Action & Adventure","Animation","Family"],
+    "original_title": "Miraculous, les aventures de Ladybug et Chat Noir",
+    "overview": "Normal high school kids by day, protectors of Paris by night! Miraculous follows the heroic adventures of Marinette and Adrien as they transform into Ladybug and Cat Noir and set out to capture akumas, creatures responsible for turning the people of Paris into villains. But neither hero knows the other’s true identity – or that they’re classmates!",
+    "poster_path": "https://image.tmdb.org/t/p/original/psDcRgUX38cIeGeADwLRPyO7SYC.jpg",
+    "title": "Miraculous: Tales of Ladybug & Cat Noir",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/dpaaxgmIe0cCId6CVIAOfNqkYm4.jpg",
+    "release_date": "2023-04-13",
+    "genres": ["Drama","Mystery"],
+    "original_title": "Obsession",
+    "overview": "A respected London surgeon's affair with his son's fiancée turns into an erotic infatuation that threatens to change their lives forever.",
+    "poster_path": "https://image.tmdb.org/t/p/original/8nQmxCYvidrCMxYCPdhuls94cl9.jpg",
+    "title": "Obsession",
+    "contentType": "show"
+  } ,{
+    "backdrop_path": "https://image.tmdb.org/t/p/original/xXRsKNJHTOGrs5wfYAxkbM2RiyT.jpg",
+    "release_date": "2017-09-25",
+    "genres": ["Drama"],
+    "original_title": "The Good Doctor",
+    "overview": "Shaun Murphy, a young surgeon with autism and savant syndrome, relocates from a quiet country life to join a prestigious hospital's surgical unit. Unable to personally connect with those around him, Shaun uses his extraordinary medical gifts to save lives and challenge the skepticism of his colleagues.",
+    "poster_path": "https://image.tmdb.org/t/p/original/luhKkdD80qe62fwop6sdrXK9jUT.jpg",
+    "title": "The Good Doctor",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/uCqXSfHymdbDMsFx8t0u0OPSuve.jpg",
+    "release_date": "2015-10-10",
+    "genres": ["Action & Adventure","Drama","War"],
+    "original_title": "The Last Kingdom",
+    "overview": "A show of heroic deeds and epic battles with a thematic depth that embraces politics, religion, warfare, courage, love, loyalty and our universal search for identity. Combining real historical figures and events with fictional characters, it is the story of how a people combined their strength under one of the most iconic kings of history in order to reclaim their land for themselves and build a place they call home.",
+    "poster_path": "https://image.tmdb.org/t/p/original/8eJf0hxgIhE6QSxbtuNCekTddy1.jpg",
+    "title": "The Last Kingdom",
+    "contentType": "show"
+  }, {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/lHe8iwM4Cdm6RSEiara4PN8ZcBd.jpg",
+    "release_date": "2013-03-03",
+    "genres": ["Action & Adventure","Drama","War"],
+    "original_title": "Vikings",
+    "overview": "The adventures of Ragnar Lothbrok, the greatest hero of his age. The series tells the sagas of Ragnar's band of Viking brothers and his family, as he rises to become King of the Viking tribes. As well as being a fearless warrior, Ragnar embodies the Norse traditions of devotion to the gods. Legend has it that he was a direct descendant of Odin, the god of war and warriors.",
+    "poster_path": "https://image.tmdb.org/t/p/original/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg",
+    "title": "Vikings",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/5s9XHTB9SLPdg3mNU6BlSLnZ9Qq.jpg",
+    "release_date": "2011-01-09",
+    "genres": ["Comedy","Drama"],
+    "original_title": "Shameless",
+    "overview": "Chicagoan Frank Gallagher is the proud single dad of six smart, industrious, independent kids, who without him would be... perhaps better off. When Frank's not at the bar spending what little money they have, he's passed out on the floor. But the kids have found ways to grow up in spite of him. They may not be like any family you know, but they make no apologies for being exactly who they are.",
+    "poster_path":"https://image.tmdb.org/t/p/original/9akij7PqZ1g6zl42DQQTtL9CTSb.jpg",
+    "title": "Shameless",
+    "contentType": "show"
+  }, {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/cvlLBcQWpO9X21jDHhgPJnE2aVq.jpg",
+    "release_date": "2000-10-06",
+    "genres": ["Crime","Drama","Mystery"],
+    "original_title": "CSI: Crime Scene Investigation",
+    "overview": "A Las Vegas team of forensic investigators are trained to solve criminal cases by scouring the crime scene, collecting irrefutable evidence and finding the missing pieces that solve the mystery.",
+    "poster_path": "https://image.tmdb.org/t/p/original/9XecVOLLkbGBNnpF2PvP8vQBmww.jpg",
+    "title": "CSI: Crime Scene Investigation",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/tMRdEsMg9MyXAkcufK9YJEeIaNW.jpg",
+    "release_date": "1989-07-05",
+    "genres": ["Comedy"],
+    "original_title": "Seinfeld",
+    "overview": "A stand-up comedian and his three offbeat friends weather the pitfalls and payoffs of life in New York City in the '90s. It's a show about nothing.",
+    "poster_path": "https://image.tmdb.org/t/p/original/aCw8ONfyz3AhngVQa1E2Ss4KSUQ.jpg",
+    "title": "Seinfeld",
+    "contentType": "show"
+  }, {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/62bXrOuMYmcn2Mt1T5lja91HlTy.jpg",
+    "release_date": "2023-06-08",
+    "genres": ["Drama"],
+    "original_title": "The Crowded Room",
+    "overview": "A psychological thriller set in Manhattan in the summer of 1979, when a young man is arrested for a shocking crime—and an unlikely investigator must solve the mystery behind it.",
+    "poster_path": "https://image.tmdb.org/t/p/original/b9Q5AK6XIte8GUZURcgZJ5iznGW.jpg",
+    "title": "The Crowded Room",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/3NN7hGSFyht7LHuoiWhubjifejz.jpg",
+    "release_date": "2023-05-19",
+    "genres": ["Drama","Crime"],
+    "original_title": "El Silencio",
+    "overview": "Sergio hasn't spoken since the day he murdered his parents. Six years later, a teen girl may be the key to revealing the whole story.",
+    "poster_path": "https://image.tmdb.org/t/p/original/cfcmyPUJbynbUtKIlqSdkOrgyzU.jpg",
+    "title": "Muted",
+    "contentType": "show"
+  } ,{
+    "backdrop_path": "https://image.tmdb.org/t/p/original/2FTGrlzwSgLsb4liif2RNkXv521.jpg",
+    "release_date": "2023-05-18",
+    "genres": ["Action & Adventure", "Animation"],
+    "original_title": "Kitti Katz",
+    "overview": "Three teenage girls transform into fierce feline superheroes to save the world from an evil Egyptian goddess — and still have time for soccer practice.",
+    "poster_path": "https://image.tmdb.org/t/p/original/smk1jLtMCZj2Ux6a9a0DmuzrNOy.jpg",
+    "title": "Kitti Katz",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/kge6NqK93tX39QqUWu2KbxOnduh.jpg",
+    "release_date": "2023-05-18",
+    "genres": ["Animation","Sci-Fi & Fantasy"],
+    "original_title": "ヤキトリ",
+    "overview": "With Earth colonized by a superior alien civilization, Akira's only chance at a better future is to enlist as an expendable Yakitori foot soldier.",
+    "poster_path": "https://image.tmdb.org/t/p/original/lA4fOKjw1epq8ItNWVNX2VKsLAN.jpg",
+    "title": "Yakitori: Soldiers of Misfortune",
+    "contentType": "show"
+  }, {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/8qzaTArPaabLnf5qoqagXXnNpRb.jpg",
+    "release_date": "2023-05-18",
+    "genres": ["Comedy"],
+    "original_title": "XO, Kitty",
+    "overview": "Teen matchmaker Kitty Song Covey thinks she knows everything there is to know about love. But when she moves halfway across the world to reunite with her long-distance boyfriend, she’ll soon realize that relationships are a lot more complicated when it’s your own heart on the line.",
+    "poster_path": "https://image.tmdb.org/t/p/original/c0Zk5EurIkqMo4n89WWjBl4UtIi.jpg",
+    "title": "XO, Kitty",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/xRvzhJgOcAZPakSUlQxVQyqEJGO.jpg",
+    "release_date": "2023-05-17",
+    "genres": ["Documentary"],
+    "original_title": "Working: What We Do All Day",
+    "overview": "For some, it's a paycheck. For others, it's a calling. This docuseries explores the meaning of work for modern Americans in a time of rapid change.",
+    "poster_path": "https://image.tmdb.org/t/p/original/2Zsi0hWQ6SByrKjLyuD7OcjOawI.jpg",
+    "title": "Working: What We Do All Day",
+    "contentType": "show"
+  } ,{
+    "backdrop_path": "https://image.tmdb.org/t/p/original/sHZZdDcxKOYGbo8eFCzq0rtsfVn.jpg",
+    "release_date": "2023-05-17",
+    "genres": ["Documentary"],
+    "original_title": "McGregor Forever",
+    "overview": "Conor McGregor's brutal strikes and trash-talking swagger made him the UFC's biggest draw. This rousing docuseries follows his dynamic career.",
+    "poster_path": "https://image.tmdb.org/t/p/original/fpEtjFN580ZqL517OIBr0WPVtMu.jpg",
+    "title": "McGregor Forever",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/qVNACrSwu8RCgf9loLKfTv0mDeq.jpg",
+    "release_date": "2023-05-12",
+    "genres": ["Sci-Fi & Fantasy", "Action & Adventure","Drama"],
+    "original_title": "택배기사",
+    "overview": "In a dystopian 2071 devastated by air pollution, the survival of humanity depends on the Black Knights — and they’re far from your average delivery men.",
+    "poster_path": "https://image.tmdb.org/t/p/original/fF7vSzea99gdOnlBEwq82jP3ca5.jpg",
+    "title": "Black Knight",
+    "contentType": "show"
+  } ,{
+    "backdrop_path": "https://image.tmdb.org/t/p/original/ggqBUyRMldy2JvPGmR80zMBUx5V.jpg",
+    "release_date": "2023-05-12",
+    "genres": ["Animation","Comedy"],
+    "original_title": "Mulligan",
+    "overview": "In this satirical comedy, when most of Earth is destroyed by aliens, can a few survivors rebuild what’s left of America and form a more perfect union?",
+    "poster_path": "https://image.tmdb.org/t/p/original/t4jMaK7u5S4p5sEW76GmBNQfE90.jpg",
+    "title": "Mulligan",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/hbXUwGcAQmCnYfzLYanlzzuJJmS.jpg",
+    "release_date": "2023-05-11",
+    "genres": ["Drama","Mystery"],
+    "original_title": "City on Fire",
+    "overview": "A college student is shot in Central Park on July 4, 2003. The investigation connects a series of mysterious citywide fires, the downtown music scene, and a wealthy uptown real estate family fraying under the strain of the many secrets they keep.",
+    "poster_path": "https://image.tmdb.org/t/p/original/lGzN8SgwlQMYn5uUI0pzG9EfXSD.jpg",
+    "title": "City on Fire",
+    "contentType": "show"
+  }, {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/slw3sELQwTkINBIIrSXi1acU2Eg.jpg",
+    "release_date": "2023-05-10",
+    "genres": ["Crime","Documentary"],
+    "original_title": "Missing: Dead or Alive?",
+    "overview": "Follow officers from a South Carolina sheriff’s department as they urgently search for individuals who've disappeared under troubling circumstances.",
+    "poster_path": "https://image.tmdb.org/t/p/original/pTSzU9gWSsbosFD9nblTIPG4gur.jpg",
+    "title": "Missing: Dead or Alive?",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/7B4On4MYyEwJirX4dme12OuweuO.jpg",
+    "release_date": "2023-05-10",
+    "genres": ["Drama"],
+    "original_title": "Dance Brothers",
+    "overview": "Two brothers trying to make it as dancers open their own club, but their artistic drive soon clashes with the business, threatening their relationship.",
+    "poster_path": "https://image.tmdb.org/t/p/original/3Ftt1QKmQo6yjqw6GtasxnocKle.jpg",
+    "title": "Dance Brothers",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/iRxHhvktvbm9ybi6NLgF1yMmwP4.jpg",
+    "release_date": "2023-05-10",
+    "genres": ["Comedy","Drama"],
+    "original_title": "The Muppets Mayhem",
+    "overview": "The Electric Mayhem Band goes on an epic musical journey to finally record their first studio album. With the help of a driven young music executive, Nora, the old-school Muppet band comes face to face with the current day music scene as they try to finally go platinum.",
+    "poster_path": "https://image.tmdb.org/t/p/original/fxJrS7cXn5hK09xDuqp7isQOFXX.jpg",
+    "title": "The Muppets Mayhem",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/2q4aPLPu7XqAbDe8JXcRyK5i6g9.jpg",
+    "release_date": "2023-05-10",
+    "genres": ["Documentary","Sci-Fi & Fantasy"],
+    "original_title": "Queen Cleopatra",
+    "overview": "As Egypt's last pharaoh, Cleopatra fights to protect her throne, family and legacy in this docuseries featuring reenactments and expert interviews.",
+    "poster_path": "https://image.tmdb.org/t/p/original/9j0u72TrqdVEFDTj7uG5KOFwbSg.jpg",
+    "title": "Queen Cleopatra",
+    "contentType": "show"
+  }, 
+   {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/6qw11290SM23qbfSNenZOpbBBxj.jpg",
+    "release_date": "2023-05-04",
+    "genres": ["Drama"],
+    "original_title": "サンクチュアリ -聖域-",
+    "overview": "A tough, desperate kid becomes a sumo wrestler, captivating fans with his cocky attitude — and upsetting an industry steeped in tradition.",
+    "poster_path": "https://image.tmdb.org/t/p/original/fnr87DcGxKB02vcuZlLgxX8tHPs.jpg",
+    "title": "Sanctuary",
+    "contentType": "show"
+  },
+  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/sLiTiKXysid6o0yt7kjfz96Jewc.jpg",
+    "release_date": "2023-05-04",
+    "genres": ["Animation","Comedy","Animation"],
+    "original_title": "Larva Family",
+    "overview": "The Larva family is growing! When Red and Yellow welcome a baby caterpillar into their lives, they get a crash course in parenting and all things putrid.",
+    "poster_path": "https://image.tmdb.org/t/p/original/5WYKClgu17xq0IcHkvYYfa25TTW.jpg",
+    "title": "Larva Family",
+    "contentType": "show"
+  }, {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/wg62um542wIRG9NwIm0wfNcaeiz.jpg",
+    "release_date": "2023-05-04",
+    "genres": ["Comedy"],
+    "original_title": "Bupkis",
+    "overview": "Pete Davidson attempts to work through unique family dynamics and the complexities of fame to form meaningful relationships.",
+    "poster_path": "https://image.tmdb.org/t/p/original/y2hAQhAwE9fRe4cpq2OrcPLRxNO.jpg",
+    "title": "Bupkis",
+    "contentType": "show"
+  }, {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/kXq7Ef7Bz0AXEr2u5F0xbrAYCsJ.jpg",
+    "release_date": "2023-05-04",
+    "genres": ["Action & Adventure","Animation","Family"],
+    "original_title": "Star Wars: Young Jedi Adventures",
+    "overview": "Set during the High Republic era and the prime of the Jedi Order, follow Jedi younglings as they study the ways of the Force, explore the galaxy, help citizens and creatures in need, and learn valuable skills needed to become Jedi along the way.",
+    "poster_path": "https://image.tmdb.org/t/p/original/oqTS9LOmp8ibRY1nsjBjP660mCb.jpg",
+    "title": "Star Wars: Young Jedi Adventures",
+    "contentType": "show"
+  }, {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/sve8ogJ12BuIHrcgg2g31SMbVAv.jpg",
+    "release_date": "2023-05-03",
+    "genres": ["Documentary"],
+    "original_title": "Ed Sheeran: The Sum of It All",
+    "overview": "For the first time ever, global superstar, Ed Sheeran opens the doors to a definitive and searingly honest view into his private life as he explores the universal themes that inspire his music. This series follows Ed after he learns of life changing news and reveals his hardships and triumphs during the most challenging period of his life. Featuring exclusive footage behind his iconic hits, never-before-seen personal archive with his friends and family, and epic stadium performances giving insight into Ed’s world.",
+    "poster_path": "https://image.tmdb.org/t/p/original/cFkNarRn5RujHPwwLe1U8AmCUEf.jpg",
+    "title": "Ed Sheeran: The Sum of It All",
+    "contentType": "show"
+  },  {
+    "backdrop_path": "https://image.tmdb.org/t/p/original/5vaDrDaJij9JFF7cwrJvAMypxLY.jpg",
+    "release_date": "2023-05-02",
+    "genres": ["Drama","Mystery"],
+    "original_title": "Terzi",
+    "overview": "A famous tailor begins to sew a wedding dress for his best friend’s fiancée – but all three have dark secrets that will soon upend their lives.",
+    "poster_path": "https://image.tmdb.org/t/p/original/a3SYikJGnXNZu3vjnHiRjiAxLyN.jpg",
+    "title": "The Tailor",
+    "contentType": "show"
   }
-    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+
     ]
   
   

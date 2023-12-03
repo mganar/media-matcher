@@ -1,3 +1,21 @@
+// Function to toggle the dropdown menu
+function toggleDropdownMenu() {
+    const dropdownMenu = document.querySelector(".dropdown-menu");
+    if (dropdownMenu.style.display === "block") {
+        dropdownMenu.style.display = "none";
+    } else {
+        dropdownMenu.style.display = "block";
+    }
+}
+
+// Event listener for the dropdown button
+const dropdownButton = document.querySelector(".dropdown-button");
+const dropdownMenu = document.querySelector(".dropdown-menu");
+
+dropdownButton.addEventListener("click", toggleDropdownMenu);
+ 
+ 
+ 
  // Function to handle the button clicks
  function handleButtonClick(category) {
     // Update the page title
@@ -11,7 +29,7 @@
     // Display subcategories based on the category
     var subcategories = [];
     if (category === "Genre") {
-        subcategories = ["Action & Adventure", "Comedy", "Drama", "Sci-Fi & Fantasy", "Horror", "Animation"];
+        subcategories = ["Action & Adventure", "Comedy", "Drama", "Sci-Fi & Fantasy", "Horror", "Animation", "War", "Family", "Documentary", "History", "Music", "Mystery",  "Crime", "Romance" ,"Thriller"];
     } 
     else if (category === "Decade Released") {
         subcategories = ["2000s", "2010s", "2020s"];
