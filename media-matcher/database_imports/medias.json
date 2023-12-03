@@ -4,7 +4,7 @@
     "backdrop_path": "https://image.tmdb.org/t/p/original/b9UCfDzwiWw7mIFsIQR9ZJUeh7q.jpg",
     "genres": ["Action & Adventure", "Comedy", "Romance"],
     "original_title": "Ghosted",
-    "overview": "Salt-of-the-earth Cole falls head over heels for enigmatic Sadie — but then makes the shocking discovery that she’s a secret agent. Before they can decide on a second date, Cole and Sadie are swept away on an international adventure to save the world.",
+    "overview": "Salt-of-the-earth Cole falls head over heels for enigmatic Sadie — but then makes the shocking discovery that shes a secret agent. Before they can decide on a second date, Cole and Sadie are swept away on an international adventure to save the world.",
     "poster_path": "https://image.tmdb.org/t/p/original/liLN69YgoovHVgmlHJ876PKi5Yi.jpg",
     "release_date": "2023-04-18",
     "title": "Ghosted",
@@ -125,7 +125,7 @@
     "backdrop_path": "https://image.tmdb.org/t/p/original/xDMIl84Qo5Tsu62c9DGWhmPI67A.jpg",
     "genres": ["Action & Adventure", "Action & Adventure", "Sci-Fi & Fantasy"],
     "original_title": "Black Panther: Wakanda Forever",
-    "overview": "Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death. As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
+    "overview": "Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King TChallas death. As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
     "poster_path": "https://image.tmdb.org/t/p/original/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
     "release_date": "2022-11-09",
     "title": "Black Panther: Wakanda Forever",
@@ -136,7 +136,7 @@
     "backdrop_path": "https://image.tmdb.org/t/p/original/a20Z41sNEqhBOf6addlSBTTQJkg.jpg",
     "genres": ["Thriller", "Mystery", "Drama", "Horror"],
     "original_title": "Uno para morir",
-    "overview": "Seven strangers wake up in a mansion in the middle of nowhere to discover they are part of a twisted game. They will have 60 minutes to choose one person to die; otherwise, all of them will be murdered. As the clock ticks down, the most lurid secrets will come to light, and they’ll discover they are all connected by a dark past.",
+    "overview": "Seven strangers wake up in a mansion in the middle of nowhere to discover they are part of a twisted game. They will have 60 minutes to choose one person to die; otherwise, all of them will be murdered. As the clock ticks down, the most lurid secrets will come to light, and theyll discover they are all connected by a dark past.",
     "poster_path": "https://image.tmdb.org/t/p/original/yMeKoe3ui4Pad8FUOJwCby3SOWe.jpg",
     "release_date": "2023-05-05",
     "title": "Death's Roulette",
@@ -154,16 +154,785 @@
     "contentType": "movie"
   },
   {
-      "_id": 283995,
-      "backdrop_path": "https://image.tmdb.org/t/p/original/aJn9XeesqsrSLKcHfHP4u5985hn.jpg",
-      "genres": ["Action & Adventure", "Sci-Fi & Fantasy"],
-      "original_title": "Guardians of the Galaxy Vol. 2",
-      "overview": "The Guardians must fight to keep their newfound family together as they unravel the mysteries of Peter Quill's true parentage. Old foes become new allies and fan-favorite characters from the classic comics will come to our heroes' aid as the Marvel Cinematic Universe continues to expand.",
-      "poster_path": "https://image.tmdb.org/t/p/original/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg",
-      "release_date": "2017-04-19",
-      "title": "Guardians of the Galaxy Vol. 2",
-      "contentType": "movie"
-    }]
+    "_id": 283995,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/aJn9XeesqsrSLKcHfHP4u5985hn.jpg",
+    "genres": ["Action & Adventure", "Sci-Fi & Fantasy"],
+    "original_title": "Guardians of the Galaxy Vol. 2",
+    "overview": "The Guardians must fight to keep their newfound family together as they unravel the mysteries of Peter Quill's true parentage. Old foes become new allies and fan-favorite characters from the classic comics will come to our heroes' aid as the Marvel Cinematic Universe continues to expand.",
+    "poster_path": "https://image.tmdb.org/t/p/original/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg",
+    "release_date": "2017-04-19",
+    "title": "Guardians of the Galaxy Vol. 2",
+    "contentType": "movie"
+  },
+  {
+    "_id": 736790,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/aityu1Gma509jInlspHstEt8Jg0.jpg",
+    "genres": ["Action & Adventure", "Sci-Fi & Fantasy", "Family"],
+    "original_title": "Chupa",
+    "overview": "While visiting family in Mexico, a lonely boy befriends a mythical creature hiding on his grandfather's ranch and embarks on the adventure of a lifetime.",
+    "poster_path": "https://image.tmdb.org/t/p/original/ra3xm8KFAkwK0CdbPRkfYADJYTB.jpg",      
+    "release_date": "2023-04-07",
+    "title": "Chupa",
+    "contentType": "movie"
+  },
+  {
+    "_id": 849869,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/tYcmm8XtzRdcT6kliCbHuWwLCwB.jpg",
+    "genres": ["Action & Adventure","Crime","Thriller"],
+    "original_title": "Kill Boksoon",
+    "overview": "At work, she's a renowned assassin. At home, she's a single mom to a teenage daughter. Killing? That's easy. It's parenting that's the hard part.",
+    "poster_path": "https://image.tmdb.org/t/p/original/taYgn3RRpCGlTGdaGQvnSIOzXFy.jpg",      
+    "release_date": "2023-02-17",
+    "title": "Kill Boksoon",
+    "contentType": "movie"
+  },
+  {
+    "_id": 998771,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/4EoQnShuyQl2YawXlQmQXn4CalG.jpg",
+    "genres": ["Comedy"],
+    "original_title": "Si Saben Como me pongo Pa Que Me Invitan? 2",
+    "overview": "The El Encanto resort once again hosts a retreat for four couples -- including a liar, a sex addict and a thief -- seeking to fix their relationships.",
+    "poster_path": "https://image.tmdb.org/t/p/original/bFRxPAiyA7dhTLrEcitAjLL02BJ.jpg",      
+    "release_date": "2022-07-13",
+    "title": "Si Saben Como me pongo Pa Que Me Invitan? 2",
+    "contentType": "movie"
+  },
+
+  {
+    "_id": 736526,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/53BC9F2tpZnsGno2cLhzvGprDYS.jpg",
+    "genres": ["Sci-Fi & Fantasy","Action & Adventure","Thriller"],
+    "original_title": "Troll",
+    "overview": "Deep inside the mountain of Dovre, something gigantic awakens after being trapped for a thousand years. Destroying everything in its path, the creature is fast approaching the capital of Norway. But how do you stop something you thought only existed in Norwegian folklore?",
+    "poster_path": "https://image.tmdb.org/t/p/original/9z4jRr43JdtU66P0iy8h18OyLql.jpg",      
+    "release_date": "2022-12-01",
+    "title": "Troll",
+    "contentType": "movie"
+  },
+  {
+    "_id": 631842,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/aHcWyh0n4YbBy9gxYCDlgsNVS3M.jpg",
+    "genres": ["Horror"],
+    "original_title": "Knock at the Cabin",
+    "overview": "While vacationing at a remote cabin, a young girl and her two fathers are taken hostage by four armed strangers who demand that the family make an unthinkable choice to avert the apocalypse. With limited access to the outside world, the family must decide what they believe before all is lost.",
+    "poster_path": "https://image.tmdb.org/t/p/original/dm06L9pxDOL9jNSK4Cb6y139rrG.jpg",      
+    "release_date": "2023-02-01",
+    "title": "Knock at the Cabin",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1023803,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/3t0DcVPuW9JRtc1CWnh1ktCKrrO.jpg",
+    "genres": ["Music"],
+    "original_title": "The Hip Hop Nutcracker",
+    "overview": "Features Rev Run as he brings audiences on a hip-hop reimagining of The Nutcracker ballet set in NYC.",
+    "poster_path": "https://image.tmdb.org/t/p/original/iqOGxcKViTtU7pwC24xUb1bDslw.jpg",      
+    "release_date": "2022-11-25",
+    "title": "The Hip Hop Nutcracker",
+    "contentType": "movie"
+  },
+  {
+    "_id": 928769,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/AfWtIzrdB0HMQ0Swequza4Jo1Kh.jpg",
+    "genres": ["Comedy","Romance","Sci-Fi & Fantasy"],
+    "original_title": "AI Love You",
+    "overview": "A modern love story set in the near future where an AI building is powered by human feelings. Due to a software glitch, it falls in love with a real girl, escapes the building into the body of a real man, and tries to win her affections.",
+    "poster_path": "https://image.tmdb.org/t/p/original/sBiJOvHCSWORnFpc4yItflIkdTi.jpg",      
+    "release_date": "2022-02-15",
+    "title": "AI Love You",
+    "contentType": "movie"
+  },
+  {
+    "_id": 869626,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/1PRWW60yQparK1I8Soyy9Evf7Dv.jpg",
+    "genres": ["Animation","Comedy","Family", "Drama", "Action & Adventure"],
+    "original_title": "Marcel the Shell with Shoes On",
+    "overview": "Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. But when a documentary filmmaker discovers them amongst the clutter of his Airbnb, the short film he posts online brings Marcel millions of passionate fans, as well as unprecedented dangers and a new hope at finding his long-lost family.",
+    "poster_path": "https://image.tmdb.org/t/p/original/jaYmP4Ct8YLnxWAW2oYkUjeXtzm.jpg",      
+    "release_date": "2022-06-24",
+    "title": "Marcel the Shell with Shoes On",
+    "contentType": "movie"
+  },
+  {
+    "_id": 265712,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/1aABIiqBY7yoQESE8qWvR0w9bJZ.jpg",
+    "genres": ["Animation", "Family", "Sci-Fi & Fantasy"],
+    "original_title": "STAND BY ME",
+    "overview": "Sewashi and Doraemon find themselves way back in time and meet Nobita. It is up to Doraemon to take care of Nobita or else he will not return to the present.",
+    "poster_path": "https://image.tmdb.org/t/p/original/wc7XQbfx6EIQqCuvmBMt3aisb2Y.jpg",      
+    "release_date": "2014-08-08",
+    "title": "Stand by Me Doraemon",
+    "contentType": "movie"
+  },
+  {
+    "_id": 985939,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/hlxduUs8y9icWGMzYCDLcYHEQ2u.jpg",
+    "genres": ["Thriller"],
+    "original_title": "Fall",
+    "overview": "For best friends Becky and Hunter, life is all about conquering fears and pushing limits. But after they climb 2,000 feet to the top of a remote, abandoned radio tower, they find themselves stranded with no way down. Now Becky and Hunters expert climbing skills will be put to the ultimate test as they desperately fight to survive the elements, a lack of supplies, and vertigo-inducing heights",
+    "poster_path": "https://image.tmdb.org/t/p/original/v28T5F1IygM8vXWZIycfNEm3xcL.jpg",      
+    "release_date": "2022-08-11",
+    "title": "Fall",
+    "contentType": "movie"
+  },
+  {
+    "_id": 814215,
+    "backdrop_path": "https://image.tmdb.org/t/p/originalnull",
+    "genres": ["History", "War"],
+    "original_title": "Sam Bahadur",
+    "overview": "A biography on Sam Manekshaw",
+    "poster_path": "https://image.tmdb.org/t/p/original/uQiG1gSsV18eTFmflsF2NWQMTgR.jpg",      
+    "release_date": "2023-12-01",
+    "title": "Sam Bahadur",
+    "contentType": "movie"
+  },
+  {
+    "_id": 695721,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/yj2SVz5I2HuQD84g633W2tijtKi.jpg",
+    "genres": ["Action & Adventure", "Sci-Fi & Fantasy"],
+    "original_title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+    "overview": "Years before he becomes the tyrannical president of Panem, 18-year-old Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12.",
+    "poster_path": "https://image.tmdb.org/t/p/original/jFXj9rh8EoSAHcYTBJYv1ir6X3A.jpg",      
+    "release_date": "2023-11-15",
+    "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+    "contentType": "movie"
+  },
+  {
+    "_id": 820525,
+    "backdrop_path": "https://image.tmdb.org/t/p/originalnull",
+    "genres": ["Romance","Drama"],
+    "original_title": "After Everything",
+    "overview": "The sequel to 'After Ever Happy' (2022), which was based on the 2015 novel of same title by Anna Todd, wherein Hardin and Tessa are separated.",
+    "poster_path": "https://image.tmdb.org/t/p/original/d0qw9hiNwhRmfw4yAc44pep6vhz.jpg",      
+    "release_date": "2023-09-13",
+    "title": "After Everything",
+    "contentType": "movie"
+  },
+  {
+    "_id": 860278,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/yZ2m1JDKY1GKacAE9qN4jSiMNW7.jpg",
+    "genres": ["Documentary"],
+    "original_title": "Stephen Curry: Underrated",
+    "overview": "The remarkable coming-of-age story of Stephen Curry—one of the most influential, dynamic, and unexpected players in basketball history—and his rise from an undersized college player to a four-time NBA champion.",
+    "poster_path": "https://image.tmdb.org/t/p/original/d0bxqRDZexPCZUTMhGGEHs4qm0r.jpg",      
+    "release_date": "2023-07-21",
+    "title": "Stephen Curry: Underrated",
+    "contentType": "movie"
+  },
+  {
+    "_id": 799258,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/bW3ZAOAM08KeAQkXd4BmM7Typn.jpg",
+    "genres": ["Action & Adventure", "War", "Thriller"],
+    "original_title": "The Swarm",
+    "overview": "Based on actual events and the efforts of the Egyptian National Security Authorities against terrorist organizations through the incident of the massacre of 21 Egyptians in Libya and the armys expanding operations in order to confront these terrorist groups.",
+    "poster_path": "https://image.tmdb.org/t/p/original/yQ3UAsUD9OsG6aA4jIE50dTg7CU.jpg",      
+    "release_date": "2023-06-28",
+    "title": "The Swarm",
+    "c,ontentType": "movie"
+  },
+  {
+    "_id": 946025,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/wrdgPLc3AFlG5jyegxSLKdlATF8.jpg",
+    "genres": ["Drama", "Comedy", "Crime"],
+    "original_title": "Kathal: A Jackfruit Mystery",
+    "overview": "When two prized jackfruits disappear from a politician's garden, a spirited cop's investigation takes an unexpected turn as she digs for the truth.",
+    "poster_path": "https://image.tmdb.org/t/p/original/tHlcVOKR3s2gpUljrtBm5MaMqH5.jpg",      
+    "release_date": "2023-05-19",
+    "title": "Kathal: A Jackfruit Mystery",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1117698,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/3FGxwPN4HLfqAlF7BqpVPEd41wa.jpg",
+    "genres": ["Drama"],
+    "original_title": "Fanfik",
+    "overview": "Two high school students form an intense connection as they navigate the challenges of discovering and expressing their truest selves.",
+    "poster_path": "https://image.tmdb.org/t/p/original/6qgkVtpVabAzjQaJTgx3Vmqnmyj.jpg",      
+    "release_date": "2023-05-17",
+    "title": "Fanfic",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1114590,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/nIXBaPRix53sq4W2KK8FazrGzc4.jpg",
+    "genres": ["Documentary"],
+    "original_title": "Anna Nicole Smith: You Don't Know Me",
+    "overview": "From the heights of her modeling fame to her tragic death, this documentary reveals Anna Nicole Smith through the eyes of the people closest to her.",
+    "poster_path": "https://image.tmdb.org/t/p/original/pGo48u8wJpQVlFV7pRo5a23CxpB.jpg",      
+    "release_date": "2023-05-16",
+    "title": "Anna Nicole Smith: You Don't Know Me",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1079078,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/yELOCXWN7mHpztKppR3ZLWG0CUp.jpg",
+    "genres": ["Drama", "Romance"],
+    "original_title": "Royalteen: Princess Margrethe",
+    "overview": "Last years prom ended in major drama for Princess Margrethe. She doesnt dare tell anyone about what happened the night she was hospitalized. Suddenly the Danish royal family plans to visit Norway, and Princess Margrethe will finally get to meet the handsome Danish prince that she's been chatting with for months. As family drama starts piling up for the royal Norwegian family, she finds herself lost between taking care of her family, portraying herself as a strong princess, and being vulnerable in her quest for love.",
+    "poster_path": "https://image.tmdb.org/t/p/original/2gkKRFDiuSvBB57glAMBsdRGeWk.jpg",      
+    "release_date": "2023-05-11",
+    "title": "Royalteen: Princess Margrethe",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1125575,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/dfssPPUbQE4UuabNnJ0Gbsq594f.jpg",
+    "genres": ["Music"],
+    "original_title": "Apple Music Live - Ed Sheeran",
+    "overview": "Apple Music Live returns for a brand-new season of exclusive live concerts with a special performance by Ed Sheeran.",
+    "poster_path": "https://image.tmdb.org/t/p/original/k6oTKYuPa5x9IJrgqGVK0vZpMEi.jpg",      
+    "release_date": "2023-05-10",
+    "title": "Apple Music Live - Ed Sheeran",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1112125,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/JiDn9R8cIAbEWKh63QsJCHoS2p.jpg",
+    "genres": ["Comedy"],
+    "original_title": "Hannah Gadsby: Something Special",
+    "overview": "A panicky proposal. A novelty wedding cake. A fateful bunny encounter. Hannah Gadsby shares tales of love and marriage in this feel-good comedy special.",
+    "poster_path": "https://image.tmdb.org/t/p/original/A06e8dnCXRm3PmFkQOettDoaaqt.jpg",      
+    "release_date": "2023-05-09",
+    "title": "Hannah Gadsby: Something Special",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1114905,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/a20Z41sNEqhBOf6addlSBTTQJkg.jpg",
+    "genres": ["Horror", "Drama", "Mystery", "Thriller"],
+    "original_title": "Uno para morir",
+    "overview": "Seven strangers wake up in a mansion in the middle of nowhere to discover they are part of a twisted game. They will have 60 minutes to choose one person to die; otherwise, all of them will be murdered. As the clock ticks down, the most lurid secrets will come to light, and theyll discover they are all connected by a dark past.",
+    "poster_path": "https://image.tmdb.org/t/p/original/yMeKoe3ui4Pad8FUOJwCby3SOWe.jpg",      
+    "release_date": "2023-05-05",
+    "title": "Death's Roulette",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1113018,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/n9hILQGfyLS7bLqQapYW5RyVc7A.jpg",
+    "genres": ["Music"],
+    "original_title": "Disney Entrelazados Live",
+    "overview": "Live the Disney Intertwined Live experience! The show includes the original songs Donde voy and Convénceme, covers from the 90s such as Keep Living Without Your Love, a selection of songs from the musical Freaky Friday: A New Musical and musical hits of the moment such as Tacones Rojos and Vivir Así",
+    "poster_path": "https://image.tmdb.org/t/p/original/2tGivdnpb4EsZPIj0f5jIpLIYIE.jpg",      
+    "release_date": "2023-05-05",
+    "title": "Disney Intertwined Live",
+    "contentType": "movie"
+  },
+  {
+    "_id": 552688,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/i1eghEBiC0gN4KnwuUGC2fNiX1f.jpg",
+    "genres": ["Action & Adventure", "Thriller"],
+    "original_title": "The Mother",
+    "overview": "A deadly female assassin comes out of hiding to protect the daughter that she gave up years before, while on the run from dangerous men.",
+    "poster_path": "https://image.tmdb.org/t/p/original/vnRthEZz16Q9VWcP5homkHxyHoy.jpg",      
+    "release_date": "2023-05-04",
+    "title": "The Mother",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1120959,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/u20TeN2ZEHqZ4qI2BxT5FWdnsum.jpg",
+    "genres": ["Documentary"],
+    "original_title": "King Charles: The Boy Who Walked Alone",
+    "overview": "A look at the new monarch's life from his former friends and girlfriends, schoolmates and his private staff.",
+    "poster_path": "https://image.tmdb.org/t/p/original/5uScnwVfyYuuR8FWmSprQuRAgSW.jpg",      
+    "release_date": "2023-05-02",
+    "title": "King Charles: The Boy Who Walked Alone",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1120585,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/sweBQMj6PZTk1VWdSAKW70F6L5g.jpg",
+    "genres": ["Drama", "Documentary"],
+    "original_title": "NOISE",
+    "overview": "Set in 2022, NOISE follows a young man as he quickly becomes engulfed by notifications from work, life, and anything else that is downloaded on his phone. Whenever he finds some quiet, the noise follows. It isn't until he finally realizes what brings him peace that the noise is quieted.",
+    "poster_path": "https://image.tmdb.org/t/p/original/mmOSojy4WuqU1CUH41QiN0yPsEQ.jpg",      
+    "release_date": "2023-05-01",
+    "title": "NOISE",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1120438,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/bguuQM2CP9BoMv7pSVMlECPHe5T.jpg",
+    "genres": ["Documentary", "TV Movie"],
+    "original_title": "TIME100: The World's Most Influential People",
+    "overview": "Jennifer Coolidge hosts the gala, which features performances by Doja Cat and Lea Michele, honorary tributes from members of this year's list and remarks from TIME CEO Jessica Sibley.",
+    "poster_path": "https://image.tmdb.org/t/p/original/jg0sVs4NFy1Hg1JBmn5SPaYN6z0.jpg",      
+    "release_date": "2023-04-30",
+    "title": "TIME100: The World's Most Influential People",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1094137,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/zh614Bixv2ePaHK8gzcUpUmcvYv.jpg",
+    "genres": ["Documentary", "TV Movie"],
+    "original_title": "Charles: In His Own Words",
+    "overview": "A documentary special that provides a rare view into the real Charles behind the headlines… told in his own words.",
+    "poster_path": "https://image.tmdb.org/t/p/original/hdbQ5M8Jj3PFsYW95Lt343Jgata.jpg",      
+    "release_date": "2023-04-28",
+    "title": "Charles: In His Own Words",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1102935,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/nWDnVpWGmBp15sdGNtFV1HBpBE4.jpg",
+    "genres": ["Drama", "Mystery", "Thriller"],
+    "original_title": "The Matchmaker",
+    "overview": "When an office worker becomes powerfully infatuated with his beautiful intern, he follows her to a desert resort overrun with bizarre forces.",
+    "poster_path": "https://image.tmdb.org/t/p/original/eIrfXpXF84tiT8U9bOcR2sDemIA.jpg",      
+    "release_date": "2023-04-27",
+    "title": "The Matchmaker",
+    "contentType": "movie"
+  },
+  {
+    "_id": 873256,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/m0mLjT3TkTXYU2e1XP3wmYDlIml.jpg",
+    "genres": ["Romance", "Comedy"],
+    "original_title": "Gorzko, gorzko!",
+    "overview": "Convinced he can charm any woman, a tenacious flirt sets his sights on a headstrong bride-to-be engaged to the son of an ambitious politician.",
+    "poster_path": "https://image.tmdb.org/t/p/original/kqltY4yywn4ex1Cht6f4lercrW4.jpg",      
+    "release_date": "2023-04-26",
+    "title": "Kiss, Kiss!",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1119419,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/uQjOKeUAqloLVZKADbQgxf7Y4Na.jpg",
+    "genres": ["Documentary", "Music"],
+    "original_title": "Wynonna Judd: Between Hell and Hallelujah",
+    "overview": "Follows Wynonna Judd's life as she continues with her next chapter after Naomi Judd's passing.",
+    "poster_path": "https://image.tmdb.org/t/p/original/hQnlNqyieCIxxafRVu2Tqo81Drt.jpg",      
+    "release_date": "2023-04-26",
+    "title": "Wynonna Judd: Between Hell and Hallelujah",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1093247,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/v3IgA4DxD6nMgDJahdLMA046eoh.jpg",
+    "genres": ["Comedy"],
+    "original_title": "John Mulaney: Baby J",
+    "overview": "A chaotic intervention. An action packed stay in rehab. After a weird couple of years, John Mulaney comes out swinging is his return to the stage.",
+    "poster_path": "https://image.tmdb.org/t/p/original/7OYznY3jHIWK9VQNUN3W7YKVTQd.jpg",      
+    "release_date": "2023-04-25",
+    "title": "John Mulaney: Baby J",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1111579,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/n8IwU4e6LJWLc9K2IHoQ8e4NLsJ.jpg",
+    "genres": ["Documentary"],
+    "original_title": "The Light We Carry: Michelle Obama and Oprah Winfrey",
+    "overview": "Michelle Obama delves into the challenges and life lessons that shaped her second bestselling book in an illuminating conversation with Oprah Winfrey.",
+    "poster_path": "https://image.tmdb.org/t/p/original/akmzMZWQasddjK9u8tVQvjEJnUP.jpg",      
+    "release_date": "2023-04-25",
+    "title": "The Light We Carry: Michelle Obama and Oprah Winfrey",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1104004,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/pU6vY39S0nDz4KZh4uzelyfkBTm.jpg",
+    "genres": ["Documentary"],
+    "original_title": "1000% Me: Growing Up Mixed",
+    "overview": "W. Kamau Bell tackles the joys and challenges of growing up mixed-race through conversations with kids and families in the San Francisco Bay Area, including his own.",
+    "poster_path": "https://image.tmdb.org/t/p/original/o1Ds13r2n3o99HegitkaBvx2R6S.jpg",      
+    "release_date": "2023-04-22",
+    "title": "1000% Me: Growing Up Mixed",
+    "contentType": "movie"
+  },
+  {
+    "_id": 635302,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/xPpXYnCWfjkt3zzE0dpCNME1pXF.jpg",
+    "genres": ["Action & Adventure", "Sci-Fi & Fantasy", "Thriller"],
+    "original_title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+    "overview": "Tanjiro Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, boards the Infinity Train on a new mission with the Fire Hashira, Kyojuro Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!",
+    "poster_path": "https://image.tmdb.org/t/p/original/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg",      
+    "release_date": "2020-10-16",
+    "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+    "contentType": "movie"
+  },
+  {
+    "_id": 768744,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/faek7NPiZqTZhstTfLQG1saw08D.jpg",
+    "genres": ["Action & Adventure", "Sci-Fi & Fantasy"],
+    "original_title": "My Hero Academia: World Heroes' Mission",
+    "overview": "A mysterious group called Humarize strongly believes in the Quirk Singularity Doomsday theory which states that when quirks get mixed further in with future generations, that power will bring forth the end of humanity. In order to save everyone, the Pro-Heroes around the world ask UA Academy heroes-in-training to assist them and form a world-class selected hero team. It’s up to the heroes to save the world and the future of heroes in what is the most dangerous crisis to take place yet in My Hero Academia.",
+    "poster_path": "https://image.tmdb.org/t/p/original/AsTlA7dj2ySGY1pzGSD0MoHFhEF.jpg",      
+    "release_date": "2021-08-06",
+    "title": "My Hero Academia: World Heroes' Mission",
+    "contentType": "movie"
+  },
+  {
+    "_id": 751741,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/6rax7iv5yQtldc3ApEvrheJf8uw.jpg",
+    "genres": ["Animation", "Comedy", "Family", "Sci-Fi & Fantasy"],
+    "original_title": "Night at the Museum: Kahmunrah Rises Again",
+    "overview": "Nick Daley is following in his father's footsteps as night watchman at the American Museum of Natural History, so he knows what happens when the sun goes down. But when the maniacal ruler Kahmunrah escapes, it is up to Nick to save the museum once and for all.",
+    "poster_path": "https://image.tmdb.org/t/p/original/mkRQn520JQD07BNP03NK3iKCaPD.jpg",      
+    "release_date": "2022-12-09",
+    "title": "Night at the Museum: Kahmunrah Rises Again",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1003580,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/jhi3K0rN46SSu9wEu6zYVCOeVtH.jpg",
+    "genres": ["Action & Adventure", "Animation", "Sci-Fi & Fantasy"],
+    "original_title": "Legion of Super-Heroes",
+    "overview": "Kara, devastated by the loss of Krypton, struggles to adjust to her new life on Earth. Her cousin, Superman, mentors her and suggests she leave their space-time to attend the Legion Academy in the 31st century, where she makes new friends and a new enemy: Brainiac 5. Meanwhile, she must contend with a mysterious group called the Dark Circle as it searches for a powerful weapon held in the Academy’s vault.",
+    "poster_path": "https://image.tmdb.org/t/p/original/8M6bA5t2q5u1nWDTEIXuGDwvboW.jpg",      
+    "release_date": "2023-02-07",
+    "title": "Legion of Super-Heroes",
+    "contentType": "movie"
+  },
+  {
+    "_id": 776835,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/gNOyIDGW8YY6AYbz6nMvrVSHSXs.jpg",
+    "genres": ["Action & Adventure", "Animation", "Sci-Fi & Fantasy"],
+    "original_title": "The Magician's Elephant",
+    "overview": "Peter is searching for his long-lost sister when he crosses paths with a fortune teller in the market square. His one one question is: is his sister still alive? The answer, that he must find a mysterious elephant and the magician who will conjure it, sets Peter off on a journey to complete three seemingly impossible tasks that will change the face of his town forever.",
+    "poster_path": "https://image.tmdb.org/t/p/original/cAoAgzOCxSytYBqqCQulhXNR3LB.jpg",      
+    "release_date": "2023-03-10",
+    "title": "The Magician's Elephant",
+    "contentType": "movie"
+  },
+  {
+    "_id": 992187,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/fdgBMk5jqs2GuyHJw0IolHZdkFv.jpg",
+    "genres": ["Drama", "Animation"],
+    "original_title": "Chip and Potato: Chip's Holiday",
+    "overview": "When falling coconuts keep everyone awake all night on vacation, Chip and Potato come up with a plan to help the family get a puggy good night's sleep!",
+    "poster_path": "https://image.tmdb.org/t/p/original/iDN3jf36vSfGnYu0YnsdaEpNAoU.jpg",      
+    "release_date": "2022-06-27",
+    "title": "Chip and Potato: Chip's Holiday",
+    "contentType": "movie"
+  },
+  {
+    "_id": 585511,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/sKvQUSyqsFq8e1ts6oo3Xp3dPH2.jpg",
+    "genres": ["Animation", "Action & Adventure", "Comedy"],
+    "original_title": "Luck",
+    "overview": "Suddenly finding herself in the never-before-seen Land of Luck, the unluckiest person in the world must unite with the magical creatures there to turn her luck around.",
+    "poster_path": "https://image.tmdb.org/t/p/original/1HOYvwGFioUFL58UVvDRG6beEDm.jpg",      
+    "release_date": "2022-08-05",
+    "title": "Luck",
+    "contentType": "movie"
+  },
+  {
+    "_id": 568124,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/3G1Q5xF40HkUBJXxt2DQgQzKTp5.jpg",
+    "genres": ["Animation", "Comedy", "Family", "Sci-Fi & Fantasy"],
+    "original_title": "Encanto",
+    "overview": "The tale of an extraordinary family, the Madrigals, who live hidden in the mountains of Colombia, in a magical house, in a vibrant town, in a wondrous, charmed place called an Encanto. The magic of the Encanto has blessed every child in the family—every child except one, Mirabel. But when she discovers that the magic surrounding the Encanto is in danger, Mirabel decides that she, the only ordinary Madrigal, might just be her exceptional family's last hope.",
+    "poster_path": "https://image.tmdb.org/t/p/original/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg",      
+    "release_date": "2021-10-13",
+    "title": "Encanto",
+    "contentType": "movie"
+  },
+  {
+    "_id": 438148,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/uMSxXLfH7v30gRNBqsQaSP3yqX5.jpg",
+    "genres": ["Animation", "Comedy", "Family"],
+    "original_title": "Minions: The Rise of Gru",
+    "overview": "A fanboy of a supervillain supergroup known as the Vicious 6, Gru hatches a plan to become evil enough to join them, with the backup of his followers, the Minions.",
+    "poster_path": "https://image.tmdb.org/t/p/original/wKiOkZTN9lUUUNZLmtnwubZYONg.jpg",      
+    "release_date": "2022-06-29",
+    "title": "Minions: The Rise of Gru",
+    "contentType": "movie"
+  },
+  {
+    "_id": 508947,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/fOy2Jurz9k6RnJnMUMRDAgBwru2.jpg",
+    "genres": ["Animation", "Family", "Comedy", "Sci-Fi & Fantasy"],
+    "original_title": "Turning Red",
+    "overview": "Thirteen-year-old Mei is experiencing the awkwardness of being a teenager with a twist when she gets too excited, she transforms into a giant red panda.",
+    "poster_path": "https://image.tmdb.org/t/p/original/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg",      
+    "release_date": "2022-03-10",
+    "title": "Turning Red",
+    "contentType": "movie"
+  },
+  {
+    "_id": 991833,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/a2BeIDEOq94NS9b8mYB6fiV2Ijx.jpg",
+    "genres": ["Animation", "Family"],
+    "original_title": "Cat Pack: A PAW Patrol Exclusive Event",
+    "overview": "When Mayor Humdinger transforms his robot cat Meow-Meow into a tiger-sized metal-eating menace, the PAW Patrol calls in the Cat Pack for help in the stopping the creature.",
+    "poster_path": "https://image.tmdb.org/t/p/original/l3rIbP71sR7hKtz77E6x7mdz6vG.jpg",      
+    "release_date": "2022-06-24",
+    "title": "Cat Pack: A PAW Patrol Exclusive Event",
+    "contentType": "movie"
+  },
+  {
+    "_id": 555604,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/e782pDRAlu4BG0ahd777n8zfPzZ.jpg",
+    "genres": ["Animation", "Sci-Fi & Fantasy", "Drama", "Music"],
+    "original_title": "Guillermo del Toro's Pinocchio",
+    "overview": "During the rise of fascism in Mussolini's Italy, a wooden boy brought magically to life struggles to live up to his father's expectations.",
+    "poster_path": "https://image.tmdb.org/t/p/original/vx1u0uwxdlhV2MUzj4VlcMB0N6m.jpg",      
+    "release_date": "2022-11-09",
+    "title": "Guillermo del Toro's Pinocchio",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1045644,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/nZko47PX3RRWzbDGtcj6PPR90By.jpg",
+    "genres": ["Comedy", "Family", "Animation"],
+    "original_title": "Minions & More Volume 2",
+    "overview": "Catch animated shorts like Phils Dance Party and Binky Nelson Unpacified in this compilation from the company behind the Despicable Me franchise.",
+    "poster_path": "https://image.tmdb.org/t/p/original/j0w5tggQs0VVtXj5OF8kWqME2WG.jpg",      
+    "release_date": "2022-11-08",
+    "title": "Minions & More Volume 2",
+    "contentType": "movie"
+  },
+  {
+    "_id": 808,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/sRvXNDItGlWCqtO3j6wks52FmbD.jpg",
+    "genres": ["Animation", "Comedy", "Sci-Fi & Fantasy", "Family"],
+    "original_title": "Shrek",
+    "overview": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
+    "poster_path": "https://image.tmdb.org/t/p/original/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",      
+    "release_date": "2001-05-18",
+    "title": "Shrek",
+    "contentType": "movie"
+  },
+  {
+    "_id": 843241,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/vkjsoMF86dJIv6Sgtd4CcuR8kzh.jpg",
+    "genres": ["Animation", "Sci-Fi & Fantasy"],
+    "original_title": "The Seven Deadly Sins: Cursed by Light",
+    "overview": "With the help of the Dragon Sin of Wrath Meliodas and the worst rebels in history, the Seven Deadly Sins, the Holy War, in which four races, including Humans, Goddesses, Fairies and Giants fought against the Demons, is finally over. At the cost of the Lion Sin of Pride Escanor's life, the Demon King was defeated and the world regained peace. After that, each of the Sins take their own path.",
+    "poster_path": "https://image.tmdb.org/t/p/original/k0ThmZQl5nHe4JefC2bXjqtgYp0.jpg",      
+    "release_date": "2021-07-02",
+    "title": "The Seven Deadly Sins: Cursed by Light",
+    "contentType": "movie"
+  },
+  {
+    "_id": 438695,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/6mJrgL7Mi13XjJeGYJFlD6UEVQw.jpg",
+    "genres": ["Animation", "Family"],
+    "original_title": "Sing 2",
+    "overview": "Buster and his new cast now have their sights set on debuting a new show at the Crystal Tower Theater in glamorous Redshore City. But with no connections, he and his singers must sneak into the Crystal Entertainment offices, run by the ruthless wolf mogul Jimmy Crystal, where the gang pitches the ridiculous idea of casting the lion rock legend Clay Calloway in their show. Buster must embark on a quest to find the now-isolated Clay and persuade him to return to the stage.",
+    "poster_path": "https://image.tmdb.org/t/p/original/aWeKITRFbbwY8txG5uCj4rMCfSP.jpg",      
+    "release_date": "2021-12-01",
+    "title": "Sing 2",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1045944,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/nITzFbM1JS7WEvFjjGL0kCb2yPr.jpg",
+    "genres": ["Animation", "Family", "Action & Adventure"],
+    "original_title": "The Boss Baby: Christmas Bonus",
+    "overview": "Christmas Eve takes a twisty turn when the Boss Baby accidentally swaps places with one of Santa's elves and gets stranded at the North Pole.",
+    "poster_path": "https://image.tmdb.org/t/p/original/iMmMxF6f2OonUrXrHKBLSYAhXly.jpg",      
+    "release_date": "2022-12-06",
+    "title": "The Boss Baby: Christmas Bonus",
+    "contentType": "movie"
+  },
+  {
+    "_id": 755812,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/adlZgxAudw3ZPA0HUcDzSTKrH8B.jpg",
+    "genres": ["Action & Adventure", "Animation", "TV Movie", "Sci-Fi & Fantasy"],
+    "original_title": "Miraculous World : New York, les héros unis",
+    "overview": "Teen Parisian superheroes Ladybug and Chat Noir visit New York on a field trip and discover that superheroes exist in the United States too.",
+    "poster_path": "https://image.tmdb.org/t/p/original/9YbyvcrHmY2SVbdfXpb8mC4Fy0g.jpg",      
+    "release_date": "2020-12-18",
+    "title": "Miraculous World : New York, les héros unis",
+    "contentType": "movie"
+  },
+  {
+    "_id": 728754,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/fStC0dSCRQslE9NzXa36EyOom81.jpg",
+    "genres": ["Animation", "Family", "Sci-Fi & Fantasy"],
+    "original_title": "Stand by Me Doraemon 2",
+    "overview": "Nobita travels to the future to show his beloved grandma his bride, but adult Nobita has fled his own wedding.",
+    "poster_path": "https://image.tmdb.org/t/p/original/vBv8iOFPLnXmtELUjcFc7OKHsR4.jpg",      
+    "release_date": "2020-11-20",
+    "title": "Stand by Me Doraemon 2",
+    "contentType": "movie"
+  },
+  {
+    "_id": 877269,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/5wDBVictj4wUYZ31gR5WzCM9dLD.jpg",
+    "genres": ["Animation", "Family", "Action & Adventure", "Sci-Fi & Fantasy"],
+    "original_title": "Strange World",
+    "overview": "A journey deep into an uncharted and treacherous land, where fantastical creatures await the legendary Clades—a family of explorers whose differences threaten to topple their latest, and by far most crucial, mission.",
+    "poster_path": "https://image.tmdb.org/t/p/original/fHMqfsYyl3lskPK2RiFRwhzwuep.jpg",      
+    "release_date": "2022-11-23",
+    "title": "Strange World",
+    "contentType": "movie"
+  },
+  {
+    "_id": 585,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/c7VbRPlev1bRfKvTxr98erw5T7B.jpg",
+    "genres": ["Animation", "Comedy", "Family"],
+    "original_title": "Monsters, Inc.",
+    "overview": "James Sullivan and Mike Wazowski are monsters, they earn their living scaring children and are the best in the business... even though they're more afraid of the children than they are of them. When a child accidentally enters their world, James and Mike suddenly find that kids are not to be afraid of and they uncover a conspiracy that could threaten all children across the world.",
+    "poster_path": "https://image.tmdb.org/t/p/original/sgheSKxZkttIe8ONsf2sWXPgip3.jpg",      
+    "release_date": "2001-11-01",
+    "title": "Monsters, Inc.",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1093349,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/tMF3M6HJxyHlPF8UBCyWyylHWR.jpg",
+    "genres": ["Family", "Animation", "Comedy"],
+    "original_title": "Barbie: Skipper and the Big Babysitting Adventure",
+    "overview": "Barbie’s younger sister Skipper is a babysitting expert, but when her babysitting business hits a snag, she takes a summer job at a water park and tries out different jobs with some new friends. A birthday party at the park goes awry and Skipper’s babysitting skills save the day! The success renews Skippers confidence in her babysitting business, and she and her new friends start a babysitting squad.",
+    "poster_path": "https://image.tmdb.org/t/p/original/3JysDbn3kZ1nc4a1yQgkg81KIdZ.jpg",      
+    "release_date": "2023-03-03",
+    "title": "Barbie: Skipper and the Big Babysitting Adventure",
+    "contentType": "movie"
+  },
+  {
+    "_id": 70160,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/3kz6mLESBmdxAJwoHMS5YYfoWLE.jp",
+    "genres": ["Sci-Fi & Fantasy", "Action & Adventure"],
+    "original_title": "The Hunger Games",
+    "overview": "Every year in the ruins of what was once North America, the nation of Panem forces each of its twelve districts to send a teenage boy and girl to compete in the Hunger Games. Part twisted entertainment, part government intimidation tactic, the Hunger Games are a nationally televised event in which “Tributes” must fight with one another until one survivor remains. Pitted against highly-trained Tributes who have prepared for these Games their entire lives, Katniss is forced to rely upon her sharp instincts as well as the mentorship of drunken former victor Haymitch Abernathy. If she’s ever to return home to District 12, Katniss must make impossible choices in the arena that weigh survival against humanity and life against love. The world will be watching.",
+    "poster_path": "https://image.tmdb.org/t/p/original/1ewwtjqAcwZ5abr2X7coGN0UwaI.jp",      
+    "release_date": "2012-03-12",
+    "title": "The Hunger Games",
+    "contentType": "movie"
+  },
+  {
+    "_id": 150540,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/jJKZaTBNenlFclQyjrnvzkRmvWE.jpg",
+    "genres": ["Animation", "Family", "Drama", "Comedy"],
+    "original_title": "Inside Out",
+    "overview": "Growing up can be a bumpy road, and it's no exception for Riley, who is uprooted from her Midwest life when her father starts a new job in San Francisco. Riley's guiding emotions— Joy, Fear, Anger, Disgust and Sadness—live in Headquarters, the control centre inside Riley's mind, where they help advise her through everyday life and tries to keep things positive, but the emotions conflict on how best to navigate a new city, house and school",
+    "poster_path": "https://image.tmdb.org/t/p/original/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg",      
+    "release_date": "2015-06-09",
+    "title": "Inside Out",
+    "contentType": "movie"
+  },
+  {
+    "_id": 329865,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/5B14ls1dftgOyTSRdzV9EPCa5pR.jpg",
+    "genres": ["Drama", "Sci-Fi & Fantasy", "Mystery"],
+    "original_title": "Arrival",
+    "overview": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+    "poster_path": "https://image.tmdb.org/t/p/original/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg",      
+    "release_date": "2016-11-10",
+    "title": "Arrival",
+    "contentType": "movie"
+  },
+  {
+    "_id": 1930,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/sLWUtbrpiLp23a0XDSiUiltdFPJ.jpg",
+    "genres": ["Action & Adventure", "Sci-Fi & Fantasy"],
+    "original_title": "The Amazing Spider-Man",
+    "overview": "Peter Parker is an outcast high schooler abandoned by his parents as a boy, leaving him to be raised by his Uncle Ben and Aunt May. Like most teenagers, Peter is trying to figure out who he is and how he got to be the person he is today. As Peter discovers a mysterious briefcase that belonged to his father, he begins a quest to understand his parents' disappearance leading him directly to Oscorp and the lab of Dr. Curt Connors, his father's former partner. As Spider-Man is set on a collision course with Connors' alter ego, The Lizard, Peter will make life-altering choices to use his powers and shape his destiny to become a hero.",
+    "poster_path": "https://image.tmdb.org/t/p/original/jIfkQNARYyERqRAq1p1c8xgePp4.jpg",      
+    "release_date": "2012-06-23",
+    "title": "The Amazing Spider-Man",
+    "contentType": "movie"
+  },
+  {
+    "_id": 381288,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/9pkZesKMnblFfKxEhQx45YQ2kIe.jpg",
+    "genres": ["Horror", "Thriller"],
+    "original_title": "Split",
+    "overview": "Though Kevin has evidenced 23 personalities to his trusted psychiatrist, Dr. Fletcher, there remains one still submerged who is set to materialize and dominate all the others. Compelled to abduct three teenage girls led by the willful, observant Casey, Kevin reaches a war for survival among all of those contained within him — as well as everyone around him — as the walls between his compartments shatter apart.",
+    "poster_path": "https://image.tmdb.org/t/p/original/lli31lYTFpvxVBeFHWoe5PMfW5s.jpg",      
+    "release_date": "2017-01-19",
+    "title": "Split",
+    "contentType": "movie"
+  },
+  {
+    "_id": 101299,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/dIi0De3LzEVSQHEUlh0Q2zUpmeW.jpg",
+    "genres": ["Action & Adventure", "Sci-Fi & Fantasy"],
+    "original_title": "The Hunger Games: Catching Fire",
+    "overview": "Katniss Everdeen has returned home safe after winning the 74th Annual Hunger Games along with fellow tribute Peeta Mellark. Winning means that they must turn around and leave their family and close friends, embarking on a "Victor's Tour" of the districts. Along the way Katniss senses that a rebellion is simmering, but the Capitol is still very much in control as President Snow prepares the 75th Annual Hunger Games (The Quarter Quell) - a competition that could change Panem forever.",
+    "poster_path": "https://image.tmdb.org/t/p/original/vrQHDXjVmbYzadOXQ0UaObunoy2.jpg",      
+    "release_date": "2013-11-15",
+    "title": "The Hunger Games: Catching Fire",
+    "contentType": "movie"
+  },
+  {
+    "_id": 24,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/lVy5Zqcty2NfemqKYbVJfdg44rK.jpg",
+    "genres": ["Action & Adventure", "Crime"],
+    "original_title": "Kill Bill: Vol. 1",
+    "overview": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle but she lives to plot her vengeance.",
+    "poster_path": "https://image.tmdb.org/t/p/original/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",      
+    "release_date": "2003-10-10",
+    "title": "Kill Bill: Vol. 1",
+    "contentType": "movie"
+  },
+  {
+    "_id": 424694,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/dcvbs8z0GEXslC1kCT77x19XDeR.jpg",
+    "genres": ["Music", "Drama", "History"],
+    "original_title": "Bohemian Rhapsody",
+    "overview": "Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock 'n' roll band Queen in 1970. Hit songs become instant classics. When Mercury's increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet finding a way to keep the band together amid the success and excess.",
+    "poster_path": "https://image.tmdb.org/t/p/original/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg",      
+    "release_date": "2018-10-24",
+    "title": "Bohemian Rhapsody",
+    "contentType": "movie"
+  },
+  {
+    "_id": 374720,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/eXYbyOx6GFvmpOJl6AS8QxXeIYE.jpg",
+    "genres": ["Action & Adventure", "War", "Drama"],
+    "original_title": "Dunkirk",
+    "overview": "The story of the miraculous evacuation of Allied soldiers from Belgium, Britain, Canada and France, who were cut off and surrounded by the German army from the beaches and harbour of Dunkirk between May 26th and June 4th 1940 during World War II.",
+    "poster_path": "https://image.tmdb.org/t/p/original/ebSnODDg9lbsMIaWg2uAbjn7TO5.jpg",      
+    "release_date": "2017-07-19",
+    "title": "Dunkirk",
+    "contentType": "movie"
+  },
+  {
+    "_id": 321612,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/m3tdSyl11fhgXPDSEt3aBctTqGP.jpg",
+    "genres": ["Family", "Sci-Fi & Fantasy", "Romance"],
+    "original_title": "Beauty and the Beast",
+    "overview": "A live-action adaptation of Disney's version of the classic tale of a cursed prince and a beautiful young woman who helps him break the spell.",
+    "poster_path": "https://image.tmdb.org/t/p/original/hKegSKIDep2ewJWPUQD7u0KqFIp.jpg",      
+    "release_date": "2017-03-16",
+    "title": "Beauty and the Beast",
+    "contentType": "movie"
+  },
+  {
+    "_id": 131631,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/tFlSDoWQsAZ2qjICKzfP5Yw6zM5.jpg",
+    "genres": ["Sci-Fi & Fantasy", "Action & Adventure", "Thriller"],
+    "original_title": "The Hunger Games: Mockingjay Part 1",
+    "overview": "Katniss Everdeen reluctantly becomes the symbol of a mass rebellion against the autocratic Capitol.",
+    "poster_path": "https://image.tmdb.org/t/p/original/4FAA18ZIja70d1Tu5hr5cj2q1sB.jpg",      
+    "release_date": "2014-11-19",
+    "title": "The Hunger Games: Mockingjay Part 1",
+    "contentType": "movie"
+  },
+  {
+    "_id": 393,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/70EtzaGfO2d8X5n8SLI4s61KuJh.jpg",
+    "genres": ["Action & Adventure", "Crime", "Thriller"],
+    "original_title": "Kill Bill: Vol. 2",
+    "overview": "The Bride unwaveringly continues on her roaring rampage of revenge against the band of assassins who had tried to kill her and her unborn child. She visits each of her former associates one-by-one, checking off the victims on her Death List Five until there's nothing left to do … but kill Bill.",
+    "poster_path": "https://image.tmdb.org/t/p/original/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg",      
+    "release_date": "2004-04-16",
+    "title": "Kill Bill: Vol. 2",
+    "contentType": "movie"
+  }
+    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    ]
+  
+  
+  
+  
+  
+  
+  
+
 
 
 
