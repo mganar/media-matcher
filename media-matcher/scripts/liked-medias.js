@@ -29,14 +29,6 @@ function displayLikedMedias() {
     });
 }
 
-
-
-// Call the function to display liked medias when the page loads
-fetchLikedMediasData();
-displayLikedMedias();
-
-dropdownButton.addEventListener("click", toggleDropdownMenu);
-
 // Function to save the liked medias to local storage
 
 function fetchLikedMediasData() {
@@ -84,3 +76,11 @@ function removeLikedMedia(mediaId) {
         console.error('Network error:', error);
     });
 }
+
+
+// Call the function to display liked medias when the page loads
+fetchLikedMediasData();
+displayLikedMedias();
+
+dropdownButton.addEventListener("click", toggleDropdownMenu);
+

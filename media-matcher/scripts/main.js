@@ -7,16 +7,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const selectedCategory = urlParams.get("category");
 const selectedSubcategory = urlParams.get("subcategory");
 
-// Function to retrieve liked medias from local storage
-function getLikedMediasFromLocalStorage() {
-    try {
-        const storedLikedMedias = localStorage.getItem('likedMedias');
-        return storedLikedMedias ? JSON.parse(storedLikedMedias) : [];
-    } catch (error) {
-        console.error('Error retrieving liked medias:', error);
-        return [];
-    }
-}
+
 
 // Function to shuffle an array
 function shuffleArray(array) {
@@ -133,7 +124,7 @@ document.querySelector(".dislike-button").addEventListener("click", () => {
         // Assuming currentMedia._id is a valid ObjectId
         const likedMediaID = currentMedia._id;
         console.log(likedMediaID);
-       // removeLikedMedia(likedMediaID)
+  
     }
     currentIndex++;
     showMedia(currentIndex, selectedCategory, selectedSubcategory);
@@ -175,27 +166,6 @@ function saveLikedMedia(mediaId) {
     });
 }
 
-/*
-// Function to remove a liked media from the user's profile
-function removeLikedMedia(mediaId) {
-    // You can use JavaScript fetch or another method to make the request
-    fetch(`/api/removeLikedMedia/${mediaId}`, {
-        method: 'DELETE',
-    })
-
-    .then(response => {
-        if (response.status === 200) {
-            // Update the UI to indicate that the media has been liked
-            console.log('Removing liked media'); // Disable the button, for example
-        } else {
-            console.error('Error saving liked media');
-        }
-    })
-    .catch(error => {
-        console.error('Network error:', error);
-    });
-}
-*/
 
 
 
