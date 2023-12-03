@@ -1,6 +1,5 @@
 [
   {
-    "_id": 868759,
     "backdrop_path": "https://image.tmdb.org/t/p/original/b9UCfDzwiWw7mIFsIQR9ZJUeh7q.jpg",
     "genres": ["Action & Adventure", "Comedy", "Romance"],
     "original_title": "Ghosted",
@@ -11,7 +10,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1102776,
     "backdrop_path": "https://image.tmdb.org/t/p/original/zh614Bixv2ePaHK8gzcUpUmcvYv.jpg",
     "genres": ["Thriller", "Action & Adventure", "Crime"],
     "original_title": "AKA",
@@ -22,7 +20,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 934433,
     "backdrop_path": "https://image.tmdb.org/t/p/original/44immBwzhDVyjn87b3x3l9mlhAD.jpg",
     "genres": ["Horror", "Mystery", "Thriller"],
     "original_title": "Scream VI",
@@ -33,7 +30,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 948713,
     "backdrop_path": "https://image.tmdb.org/t/p/original/xwA90BwZXTh8ke3CVsQlj8EOkFr.jpg",
     "genres": ["Action & Adventure", "Action & Adventure", "History", "Drama", "War"],
     "original_title": "The Last Kingdom: Seven Kings Must Die",
@@ -44,7 +40,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 420808,
     "backdrop_path": "https://image.tmdb.org/t/p/original/8HfjrSxfTVKmjNh8cJjbu5eXzcX.jpg",
     "genres": ["Family", "Sci-Fi & Fantasy", "Action & Adventure", "Action & Adventure"],
     "original_title": "Peter Pan & Wendy",
@@ -55,7 +50,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 493529,
     "backdrop_path": "https://image.tmdb.org/t/p/original/20uHjZ4yCPD2x0ndcxZaxM7hLIy.jpg",
     "genres": ["Action & Adventure", "Sci-Fi & Fantasy", "Comedy"],
     "original_title": "Dungeons & Dragons: Honor Among Thieves",
@@ -66,7 +60,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 315162,
     "backdrop_path": "https://image.tmdb.org/t/p/original/jr8tSoJGj33XLgFBy6lmZhpGQNu.jpg",
     "genres": ["Animation", "Family", "Sci-Fi & Fantasy", "Action & Adventure", "Comedy"],
     "original_title": "Puss in Boots: The Last Wish",
@@ -77,7 +70,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 638974,
     "backdrop_path": "https://image.tmdb.org/t/p/original/bT3IpP7OopgiVuy6HCPOWLuaFAd.jpg",
     "genres": ["Comedy", "Crime"],
     "original_title": "Murder Mystery 2",
@@ -88,7 +80,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 860425,
     "backdrop_path": "https://image.tmdb.org/t/p/original/1Txzm4bY5ZDqvgMl7MmHeBMl7HH.jpg",
     "genres": ["Crime", "Drama", "Thriller"],
     "original_title": "Sinaliento",
@@ -99,7 +90,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 804150,
     "backdrop_path": "https://image.tmdb.org/t/p/original/a2tys4sD7xzVaogPntGsT1ypVoT.jpg",
     "genres": ["Thriller", "Comedy", "Crime"],
     "original_title": "Cocaine Bear",
@@ -110,7 +100,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 920143,
     "backdrop_path": "https://image.tmdb.org/t/p/original/svVppV4UOQw1fVi1Dt6z7n2UlyG.jpg",
     "genres": ["Comedy"],
     "original_title": "El paseo 6",
@@ -121,7 +110,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 505642,
     "backdrop_path": "https://image.tmdb.org/t/p/original/xDMIl84Qo5Tsu62c9DGWhmPI67A.jpg",
     "genres": ["Action & Adventure", "Action & Adventure", "Sci-Fi & Fantasy"],
     "original_title": "Black Panther: Wakanda Forever",
@@ -132,7 +120,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1114905,
     "backdrop_path": "https://image.tmdb.org/t/p/original/a20Z41sNEqhBOf6addlSBTTQJkg.jpg",
     "genres": ["Thriller", "Mystery", "Drama", "Horror"],
     "original_title": "Uno para morir",
@@ -143,7 +130,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 436270,
     "backdrop_path": "https://image.tmdb.org/t/p/original/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
     "genres": ["Action & Adventure", "Action & Adventure", "Sci-Fi & Fantasy", "Sci-Fi & Fantasy"],
     "original_title": "Black Adam",
@@ -154,7 +140,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 283995,
     "backdrop_path": "https://image.tmdb.org/t/p/original/aJn9XeesqsrSLKcHfHP4u5985hn.jpg",
     "genres": ["Action & Adventure", "Sci-Fi & Fantasy"],
     "original_title": "Guardians of the Galaxy Vol. 2",
@@ -165,7 +150,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 736790,
     "backdrop_path": "https://image.tmdb.org/t/p/original/aityu1Gma509jInlspHstEt8Jg0.jpg",
     "genres": ["Action & Adventure", "Sci-Fi & Fantasy", "Family"],
     "original_title": "Chupa",
@@ -176,7 +160,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 849869,
     "backdrop_path": "https://image.tmdb.org/t/p/original/tYcmm8XtzRdcT6kliCbHuWwLCwB.jpg",
     "genres": ["Action & Adventure","Crime","Thriller"],
     "original_title": "Kill Boksoon",
@@ -187,7 +170,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 998771,
     "backdrop_path": "https://image.tmdb.org/t/p/original/4EoQnShuyQl2YawXlQmQXn4CalG.jpg",
     "genres": ["Comedy"],
     "original_title": "Si Saben Como me pongo Pa Que Me Invitan? 2",
@@ -199,7 +181,6 @@
   },
 
   {
-    "_id": 736526,
     "backdrop_path": "https://image.tmdb.org/t/p/original/53BC9F2tpZnsGno2cLhzvGprDYS.jpg",
     "genres": ["Sci-Fi & Fantasy","Action & Adventure","Thriller"],
     "original_title": "Troll",
@@ -210,7 +191,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 631842,
     "backdrop_path": "https://image.tmdb.org/t/p/original/aHcWyh0n4YbBy9gxYCDlgsNVS3M.jpg",
     "genres": ["Horror"],
     "original_title": "Knock at the Cabin",
@@ -221,7 +201,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1023803,
     "backdrop_path": "https://image.tmdb.org/t/p/original/3t0DcVPuW9JRtc1CWnh1ktCKrrO.jpg",
     "genres": ["Music"],
     "original_title": "The Hip Hop Nutcracker",
@@ -232,7 +211,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 928769,
     "backdrop_path": "https://image.tmdb.org/t/p/original/AfWtIzrdB0HMQ0Swequza4Jo1Kh.jpg",
     "genres": ["Comedy","Romance","Sci-Fi & Fantasy"],
     "original_title": "AI Love You",
@@ -243,7 +221,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 869626,
     "backdrop_path": "https://image.tmdb.org/t/p/original/1PRWW60yQparK1I8Soyy9Evf7Dv.jpg",
     "genres": ["Animation","Comedy","Family", "Drama", "Action & Adventure"],
     "original_title": "Marcel the Shell with Shoes On",
@@ -254,7 +231,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 265712,
     "backdrop_path": "https://image.tmdb.org/t/p/original/1aABIiqBY7yoQESE8qWvR0w9bJZ.jpg",
     "genres": ["Animation", "Family", "Sci-Fi & Fantasy"],
     "original_title": "STAND BY ME",
@@ -265,7 +241,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 985939,
     "backdrop_path": "https://image.tmdb.org/t/p/original/hlxduUs8y9icWGMzYCDLcYHEQ2u.jpg",
     "genres": ["Thriller"],
     "original_title": "Fall",
@@ -276,7 +251,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 814215,
     "backdrop_path": "https://image.tmdb.org/t/p/originalnull",
     "genres": ["History", "War"],
     "original_title": "Sam Bahadur",
@@ -287,7 +261,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 695721,
     "backdrop_path": "https://image.tmdb.org/t/p/original/yj2SVz5I2HuQD84g633W2tijtKi.jpg",
     "genres": ["Action & Adventure", "Sci-Fi & Fantasy"],
     "original_title": "The Hunger Games: The Ballad of Songbirds & Snakes",
@@ -298,7 +271,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 820525,
     "backdrop_path": "https://image.tmdb.org/t/p/originalnull",
     "genres": ["Romance","Drama"],
     "original_title": "After Everything",
@@ -309,7 +281,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 860278,
     "backdrop_path": "https://image.tmdb.org/t/p/original/yZ2m1JDKY1GKacAE9qN4jSiMNW7.jpg",
     "genres": ["Documentary"],
     "original_title": "Stephen Curry: Underrated",
@@ -320,7 +291,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 799258,
     "backdrop_path": "https://image.tmdb.org/t/p/original/bW3ZAOAM08KeAQkXd4BmM7Typn.jpg",
     "genres": ["Action & Adventure", "War", "Thriller"],
     "original_title": "The Swarm",
@@ -331,7 +301,6 @@
     "c,ontentType": "movie"
   },
   {
-    "_id": 946025,
     "backdrop_path": "https://image.tmdb.org/t/p/original/wrdgPLc3AFlG5jyegxSLKdlATF8.jpg",
     "genres": ["Drama", "Comedy", "Crime"],
     "original_title": "Kathal: A Jackfruit Mystery",
@@ -342,7 +311,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1117698,
     "backdrop_path": "https://image.tmdb.org/t/p/original/3FGxwPN4HLfqAlF7BqpVPEd41wa.jpg",
     "genres": ["Drama"],
     "original_title": "Fanfik",
@@ -353,7 +321,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1114590,
     "backdrop_path": "https://image.tmdb.org/t/p/original/nIXBaPRix53sq4W2KK8FazrGzc4.jpg",
     "genres": ["Documentary"],
     "original_title": "Anna Nicole Smith: You Don't Know Me",
@@ -364,7 +331,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1079078,
     "backdrop_path": "https://image.tmdb.org/t/p/original/yELOCXWN7mHpztKppR3ZLWG0CUp.jpg",
     "genres": ["Drama", "Romance"],
     "original_title": "Royalteen: Princess Margrethe",
@@ -375,7 +341,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1125575,
     "backdrop_path": "https://image.tmdb.org/t/p/original/dfssPPUbQE4UuabNnJ0Gbsq594f.jpg",
     "genres": ["Music"],
     "original_title": "Apple Music Live - Ed Sheeran",
@@ -386,7 +351,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1112125,
     "backdrop_path": "https://image.tmdb.org/t/p/original/JiDn9R8cIAbEWKh63QsJCHoS2p.jpg",
     "genres": ["Comedy"],
     "original_title": "Hannah Gadsby: Something Special",
@@ -397,7 +361,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1114905,
     "backdrop_path": "https://image.tmdb.org/t/p/original/a20Z41sNEqhBOf6addlSBTTQJkg.jpg",
     "genres": ["Horror", "Drama", "Mystery", "Thriller"],
     "original_title": "Uno para morir",
@@ -408,7 +371,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1113018,
     "backdrop_path": "https://image.tmdb.org/t/p/original/n9hILQGfyLS7bLqQapYW5RyVc7A.jpg",
     "genres": ["Music"],
     "original_title": "Disney Entrelazados Live",
@@ -419,7 +381,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 552688,
     "backdrop_path": "https://image.tmdb.org/t/p/original/i1eghEBiC0gN4KnwuUGC2fNiX1f.jpg",
     "genres": ["Action & Adventure", "Thriller"],
     "original_title": "The Mother",
@@ -430,7 +391,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1120959,
     "backdrop_path": "https://image.tmdb.org/t/p/original/u20TeN2ZEHqZ4qI2BxT5FWdnsum.jpg",
     "genres": ["Documentary"],
     "original_title": "King Charles: The Boy Who Walked Alone",
@@ -441,7 +401,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1120585,
     "backdrop_path": "https://image.tmdb.org/t/p/original/sweBQMj6PZTk1VWdSAKW70F6L5g.jpg",
     "genres": ["Drama", "Documentary"],
     "original_title": "NOISE",
@@ -452,7 +411,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1120438,
     "backdrop_path": "https://image.tmdb.org/t/p/original/bguuQM2CP9BoMv7pSVMlECPHe5T.jpg",
     "genres": ["Documentary", "TV Movie"],
     "original_title": "TIME100: The World's Most Influential People",
@@ -463,7 +421,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1094137,
     "backdrop_path": "https://image.tmdb.org/t/p/original/zh614Bixv2ePaHK8gzcUpUmcvYv.jpg",
     "genres": ["Documentary", "TV Movie"],
     "original_title": "Charles: In His Own Words",
@@ -474,7 +431,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1102935,
     "backdrop_path": "https://image.tmdb.org/t/p/original/nWDnVpWGmBp15sdGNtFV1HBpBE4.jpg",
     "genres": ["Drama", "Mystery", "Thriller"],
     "original_title": "The Matchmaker",
@@ -485,7 +441,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 873256,
     "backdrop_path": "https://image.tmdb.org/t/p/original/m0mLjT3TkTXYU2e1XP3wmYDlIml.jpg",
     "genres": ["Romance", "Comedy"],
     "original_title": "Gorzko, gorzko!",
@@ -496,7 +451,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1119419,
     "backdrop_path": "https://image.tmdb.org/t/p/original/uQjOKeUAqloLVZKADbQgxf7Y4Na.jpg",
     "genres": ["Documentary", "Music"],
     "original_title": "Wynonna Judd: Between Hell and Hallelujah",
@@ -507,7 +461,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1093247,
     "backdrop_path": "https://image.tmdb.org/t/p/original/v3IgA4DxD6nMgDJahdLMA046eoh.jpg",
     "genres": ["Comedy"],
     "original_title": "John Mulaney: Baby J",
@@ -518,7 +471,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1111579,
     "backdrop_path": "https://image.tmdb.org/t/p/original/n8IwU4e6LJWLc9K2IHoQ8e4NLsJ.jpg",
     "genres": ["Documentary"],
     "original_title": "The Light We Carry: Michelle Obama and Oprah Winfrey",
@@ -529,7 +481,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1104004,
     "backdrop_path": "https://image.tmdb.org/t/p/original/pU6vY39S0nDz4KZh4uzelyfkBTm.jpg",
     "genres": ["Documentary"],
     "original_title": "1000% Me: Growing Up Mixed",
@@ -540,7 +491,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 635302,
     "backdrop_path": "https://image.tmdb.org/t/p/original/xPpXYnCWfjkt3zzE0dpCNME1pXF.jpg",
     "genres": ["Action & Adventure", "Sci-Fi & Fantasy", "Thriller"],
     "original_title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
@@ -551,7 +501,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 768744,
     "backdrop_path": "https://image.tmdb.org/t/p/original/faek7NPiZqTZhstTfLQG1saw08D.jpg",
     "genres": ["Action & Adventure", "Sci-Fi & Fantasy"],
     "original_title": "My Hero Academia: World Heroes' Mission",
@@ -562,7 +511,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 751741,
     "backdrop_path": "https://image.tmdb.org/t/p/original/6rax7iv5yQtldc3ApEvrheJf8uw.jpg",
     "genres": ["Animation", "Comedy", "Family", "Sci-Fi & Fantasy"],
     "original_title": "Night at the Museum: Kahmunrah Rises Again",
@@ -573,7 +521,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1003580,
     "backdrop_path": "https://image.tmdb.org/t/p/original/jhi3K0rN46SSu9wEu6zYVCOeVtH.jpg",
     "genres": ["Action & Adventure", "Animation", "Sci-Fi & Fantasy"],
     "original_title": "Legion of Super-Heroes",
@@ -584,7 +531,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 776835,
     "backdrop_path": "https://image.tmdb.org/t/p/original/gNOyIDGW8YY6AYbz6nMvrVSHSXs.jpg",
     "genres": ["Action & Adventure", "Animation", "Sci-Fi & Fantasy"],
     "original_title": "The Magician's Elephant",
@@ -595,7 +541,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 992187,
     "backdrop_path": "https://image.tmdb.org/t/p/original/fdgBMk5jqs2GuyHJw0IolHZdkFv.jpg",
     "genres": ["Drama", "Animation"],
     "original_title": "Chip and Potato: Chip's Holiday",
@@ -606,7 +551,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 585511,
     "backdrop_path": "https://image.tmdb.org/t/p/original/sKvQUSyqsFq8e1ts6oo3Xp3dPH2.jpg",
     "genres": ["Animation", "Action & Adventure", "Comedy"],
     "original_title": "Luck",
@@ -617,7 +561,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 568124,
     "backdrop_path": "https://image.tmdb.org/t/p/original/3G1Q5xF40HkUBJXxt2DQgQzKTp5.jpg",
     "genres": ["Animation", "Comedy", "Family", "Sci-Fi & Fantasy"],
     "original_title": "Encanto",
@@ -628,7 +571,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 438148,
     "backdrop_path": "https://image.tmdb.org/t/p/original/uMSxXLfH7v30gRNBqsQaSP3yqX5.jpg",
     "genres": ["Animation", "Comedy", "Family"],
     "original_title": "Minions: The Rise of Gru",
@@ -639,7 +581,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 508947,
     "backdrop_path": "https://image.tmdb.org/t/p/original/fOy2Jurz9k6RnJnMUMRDAgBwru2.jpg",
     "genres": ["Animation", "Family", "Comedy", "Sci-Fi & Fantasy"],
     "original_title": "Turning Red",
@@ -650,7 +591,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 991833,
     "backdrop_path": "https://image.tmdb.org/t/p/original/a2BeIDEOq94NS9b8mYB6fiV2Ijx.jpg",
     "genres": ["Animation", "Family"],
     "original_title": "Cat Pack: A PAW Patrol Exclusive Event",
@@ -661,7 +601,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 555604,
     "backdrop_path": "https://image.tmdb.org/t/p/original/e782pDRAlu4BG0ahd777n8zfPzZ.jpg",
     "genres": ["Animation", "Sci-Fi & Fantasy", "Drama", "Music"],
     "original_title": "Guillermo del Toro's Pinocchio",
@@ -672,7 +611,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1045644,
     "backdrop_path": "https://image.tmdb.org/t/p/original/nZko47PX3RRWzbDGtcj6PPR90By.jpg",
     "genres": ["Comedy", "Family", "Animation"],
     "original_title": "Minions & More Volume 2",
@@ -683,7 +621,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 808,
     "backdrop_path": "https://image.tmdb.org/t/p/original/sRvXNDItGlWCqtO3j6wks52FmbD.jpg",
     "genres": ["Animation", "Comedy", "Sci-Fi & Fantasy", "Family"],
     "original_title": "Shrek",
@@ -694,7 +631,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 843241,
     "backdrop_path": "https://image.tmdb.org/t/p/original/vkjsoMF86dJIv6Sgtd4CcuR8kzh.jpg",
     "genres": ["Animation", "Sci-Fi & Fantasy"],
     "original_title": "The Seven Deadly Sins: Cursed by Light",
@@ -705,7 +641,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 438695,
     "backdrop_path": "https://image.tmdb.org/t/p/original/6mJrgL7Mi13XjJeGYJFlD6UEVQw.jpg",
     "genres": ["Animation", "Family"],
     "original_title": "Sing 2",
@@ -716,7 +651,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1045944,
     "backdrop_path": "https://image.tmdb.org/t/p/original/nITzFbM1JS7WEvFjjGL0kCb2yPr.jpg",
     "genres": ["Animation", "Family", "Action & Adventure"],
     "original_title": "The Boss Baby: Christmas Bonus",
@@ -727,7 +661,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 755812,
     "backdrop_path": "https://image.tmdb.org/t/p/original/adlZgxAudw3ZPA0HUcDzSTKrH8B.jpg",
     "genres": ["Action & Adventure", "Animation", "TV Movie", "Sci-Fi & Fantasy"],
     "original_title": "Miraculous World : New York, les héros unis",
@@ -738,7 +671,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 728754,
     "backdrop_path": "https://image.tmdb.org/t/p/original/fStC0dSCRQslE9NzXa36EyOom81.jpg",
     "genres": ["Animation", "Family", "Sci-Fi & Fantasy"],
     "original_title": "Stand by Me Doraemon 2",
@@ -749,7 +681,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 877269,
     "backdrop_path": "https://image.tmdb.org/t/p/original/5wDBVictj4wUYZ31gR5WzCM9dLD.jpg",
     "genres": ["Animation", "Family", "Action & Adventure", "Sci-Fi & Fantasy"],
     "original_title": "Strange World",
@@ -760,7 +691,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 585,
     "backdrop_path": "https://image.tmdb.org/t/p/original/c7VbRPlev1bRfKvTxr98erw5T7B.jpg",
     "genres": ["Animation", "Comedy", "Family"],
     "original_title": "Monsters, Inc.",
@@ -771,7 +701,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1093349,
     "backdrop_path": "https://image.tmdb.org/t/p/original/tMF3M6HJxyHlPF8UBCyWyylHWR.jpg",
     "genres": ["Family", "Animation", "Comedy"],
     "original_title": "Barbie: Skipper and the Big Babysitting Adventure",
@@ -782,7 +711,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 70160,
     "backdrop_path": "https://image.tmdb.org/t/p/original/3kz6mLESBmdxAJwoHMS5YYfoWLE.jp",
     "genres": ["Sci-Fi & Fantasy", "Action & Adventure"],
     "original_title": "The Hunger Games",
@@ -793,7 +721,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 150540,
     "backdrop_path": "https://image.tmdb.org/t/p/original/jJKZaTBNenlFclQyjrnvzkRmvWE.jpg",
     "genres": ["Animation", "Family", "Drama", "Comedy"],
     "original_title": "Inside Out",
@@ -804,7 +731,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 329865,
     "backdrop_path": "https://image.tmdb.org/t/p/original/5B14ls1dftgOyTSRdzV9EPCa5pR.jpg",
     "genres": ["Drama", "Sci-Fi & Fantasy", "Mystery"],
     "original_title": "Arrival",
@@ -815,7 +741,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 1930,
     "backdrop_path": "https://image.tmdb.org/t/p/original/sLWUtbrpiLp23a0XDSiUiltdFPJ.jpg",
     "genres": ["Action & Adventure", "Sci-Fi & Fantasy"],
     "original_title": "The Amazing Spider-Man",
@@ -826,7 +751,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 381288,
     "backdrop_path": "https://image.tmdb.org/t/p/original/9pkZesKMnblFfKxEhQx45YQ2kIe.jpg",
     "genres": ["Horror", "Thriller"],
     "original_title": "Split",
@@ -837,18 +761,16 @@
     "contentType": "movie"
   },
   {
-    "_id": 101299,
     "backdrop_path": "https://image.tmdb.org/t/p/original/dIi0De3LzEVSQHEUlh0Q2zUpmeW.jpg",
     "genres": ["Action & Adventure", "Sci-Fi & Fantasy"],
     "original_title": "The Hunger Games: Catching Fire",
-    "overview": "Katniss Everdeen has returned home safe after winning the 74th Annual Hunger Games along with fellow tribute Peeta Mellark. Winning means that they must turn around and leave their family and close friends, embarking on a "Victor's Tour" of the districts. Along the way Katniss senses that a rebellion is simmering, but the Capitol is still very much in control as President Snow prepares the 75th Annual Hunger Games (The Quarter Quell) - a competition that could change Panem forever.",
+    "overview": "Katniss Everdeen has returned home safe after winning the 74th Annual Hunger Games along with fellow tribute Peeta Mellark. Winning means that they must turn around and leave their family and close friends, embarking on a \"Victor's Tour\" of the districts. Along the way Katniss senses that a rebellion is simmering, but the Capitol is still very much in control as President Snow prepares the 75th Annual Hunger Games (The Quarter Quell) - a competition that could change Panem forever.",
     "poster_path": "https://image.tmdb.org/t/p/original/vrQHDXjVmbYzadOXQ0UaObunoy2.jpg",      
     "release_date": "2013-11-15",
     "title": "The Hunger Games: Catching Fire",
     "contentType": "movie"
   },
   {
-    "_id": 24,
     "backdrop_path": "https://image.tmdb.org/t/p/original/lVy5Zqcty2NfemqKYbVJfdg44rK.jpg",
     "genres": ["Action & Adventure", "Crime"],
     "original_title": "Kill Bill: Vol. 1",
@@ -859,7 +781,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 424694,
     "backdrop_path": "https://image.tmdb.org/t/p/original/dcvbs8z0GEXslC1kCT77x19XDeR.jpg",
     "genres": ["Music", "Drama", "History"],
     "original_title": "Bohemian Rhapsody",
@@ -870,7 +791,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 374720,
     "backdrop_path": "https://image.tmdb.org/t/p/original/eXYbyOx6GFvmpOJl6AS8QxXeIYE.jpg",
     "genres": ["Action & Adventure", "War", "Drama"],
     "original_title": "Dunkirk",
@@ -881,7 +801,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 321612,
     "backdrop_path": "https://image.tmdb.org/t/p/original/m3tdSyl11fhgXPDSEt3aBctTqGP.jpg",
     "genres": ["Family", "Sci-Fi & Fantasy", "Romance"],
     "original_title": "Beauty and the Beast",
@@ -892,7 +811,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 131631,
     "backdrop_path": "https://image.tmdb.org/t/p/original/tFlSDoWQsAZ2qjICKzfP5Yw6zM5.jpg",
     "genres": ["Sci-Fi & Fantasy", "Action & Adventure", "Thriller"],
     "original_title": "The Hunger Games: Mockingjay Part 1",
@@ -903,7 +821,6 @@
     "contentType": "movie"
   },
   {
-    "_id": 393,
     "backdrop_path": "https://image.tmdb.org/t/p/original/70EtzaGfO2d8X5n8SLI4s61KuJh.jpg",
     "genres": ["Action & Adventure", "Crime", "Thriller"],
     "original_title": "Kill Bill: Vol. 2",
